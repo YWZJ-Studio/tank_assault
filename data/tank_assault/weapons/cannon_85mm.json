@@ -2,11 +2,11 @@
 	"type": "ywzj_vehicle:cannon",
 	"name": "85mm Cannon",
 	"caliber": 85,
-	"damage": 499,
+	"damage": 360,
 	"headshot_multiplier": 1,
 	"recoil": 0.5,
 	"inaccuracy": 0.05,
-	"shoot_interval": 400,
+	"shoot_interval": 300,
 	"max_capacity": 1,
 	"reload": {
 		"time": 100,
@@ -14,7 +14,7 @@
 	},
 	"explosion": {
 		"explode": true,
-		"damage": 199,
+		"damage": 110,
 		"radius": 4,
 		"destroy_block": true
 	}

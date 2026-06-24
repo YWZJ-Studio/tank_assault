@@ -1,8 +1,8 @@
 {
 	"type": "ywzj_vehicle:tracked_vehicle",
 	"model": "tank_assault:entity/sdkfz2",
-	"texture": "tank_assault:textures/entity/sdkfz2.png",
-	"slot_texture": "tank_assault:textures/slot/sdkfz2_camo.png",
+	"texture": "tank_assault:textures/entity/sdkfz2_2.png",
+	"slot_texture": "tank_assault:textures/slot/sdkfz2.png",
 	"animations": "tank_assault:entity/sdkfz2.animation",
 	"animation_controller": "tank_assault:sdkfz2_controller",
 	"track_config": {

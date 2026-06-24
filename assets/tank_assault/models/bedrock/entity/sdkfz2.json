@@ -4123,7 +4123,7 @@
 					]
 				},
 				{
-					"name": "ysmGlow_front_light",
+					"name": "illum_front_light",
 					"parent": "deng",
 					"pivot": [0, 7.77619, -53.70799],
 					"cubes": [

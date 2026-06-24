@@ -9,7 +9,11 @@
 		"turn_acceleration": 1,
 		"max_turn": 2
 	},
-	"max_health": 300,
+	"max_health": 700,
+	"defense_stats": {
+		"damage_threshold": 90,
+		"impact_multiplier": 1.0
+    },	
 	"view_info": {
 		"third_person_center_offset": [0, 3, 0],
 		"third_person_distance": 7,
@@ -30,7 +34,7 @@
 			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
 			"structure_bone": "turret",
-			"seat_offset": [0.5, 2, -0.3],
+			"seat_offset": [0.5, 2, -0.2],
 			"rot_info": {
 				"x_rot_speed": 1.5,
 				"y_rot_speed": 1.5,
@@ -69,7 +73,7 @@
 			"name": "seat2",
 			"type": "ywzj_vehicle:generic",
 			"structure_bone": "gunner_seat",
-			"seat_offset": [-0.5, 2, -0.3],
+			"seat_offset": [-0.4, 2, -0.1],
 			"owner_view_offset": [-0.5, 3.5, -0.3]
 		},
 		{

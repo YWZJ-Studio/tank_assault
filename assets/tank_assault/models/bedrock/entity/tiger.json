@@ -2758,7 +2758,7 @@
 					]
 				},
 				{
-					"name": "ysmGlow_Right_light",
+					"name": "illum_Right_light",
 					"parent": "Tiger.I.E_x2x0.9x1.2",
 					"pivot": [-0.30375, 28.97253, -40.19981],
 					"cubes": [

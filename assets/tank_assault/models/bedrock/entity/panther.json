@@ -6940,7 +6940,7 @@
 					]
 				},
 				{
-					"name": "ysmGlow_Left_light",
+					"name": "illum_Left_light",
 					"parent": "Panther.G_x1.2x0.75",
 					"pivot": [21.39666, 29.7065, -52.57409],
 					"cubes": [
