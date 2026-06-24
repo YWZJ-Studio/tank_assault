@@ -1,0 +1,21 @@
+{
+	"type": "ywzj_vehicle:tracked_vehicle",
+	"model": "tank_assault:entity/sdkfz2",
+	"texture": "tank_assault:textures/entity/sdkfz2.png",
+	"slot_texture": "tank_assault:textures/slot/sdkfz2_camo.png",
+	"animations": "tank_assault:entity/sdkfz2.animation",
+	"animation_controller": "tank_assault:sdkfz2_controller",
+	"track_config": {
+		"left_track": "tread_l_move",
+		"right_track": "tread_r_move",
+		"module_length": 0.25,
+		"track_width": 3.0
+	},
+	"sounds": {
+		"engine_start": "tank_assault:panther3_engine_start",
+		"engine_idle": "tank_assault:panther3_engine_idle",
+		"engine_run": "tank_assault:panther3_engine_run",
+		"track_run": "tank_assault:panther3_engine_track"
+	},
+	"description": ""
+}

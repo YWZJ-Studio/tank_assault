@@ -1,0 +1,10 @@
+{
+	"namespace": "tank_assault",
+	"title": "坦克突击",
+	"description": "",
+	"version": "0.0.1",
+	"date": "2026-01-01",
+	"license": "All Rights Reserved",
+	"authors": ["YWZJ"],
+	"dependencies": {"ywzj_vehicle": "[0.5.3,)"}
+}

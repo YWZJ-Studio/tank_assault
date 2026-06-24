@@ -1,0 +1,98 @@
+{
+	"type": "ywzj_vehicle:tracked_vehicle",
+	"attributes": {
+		"brake_acceleration": 0.025,
+		"forward_acceleration": 0.01,
+		"backward_acceleration": 0.01,
+		"max_speed_forward": 0.5,
+		"max_speed_backward": 0.2,
+		"turn_acceleration": 1,
+		"max_turn": 2
+	},
+	"max_health": 300,
+	"view_info": {
+		"third_person_center_offset": [0, 3, 0],
+		"third_person_distance": 7,
+		"sound_distance": 7
+	},
+	"energy_info": {
+		"energy_capacity": 1,
+		"energy_consumption_per_tick": 1e-05,
+		"engine_particle_offsets": [[0.354, 1.985, -3.992], [-0.354, 1.985, -3.992]]
+	},
+	"physics_info": {
+		"can_destroy_block": true
+	},
+	"structure_model": "tank_assault:vehicle/panther",
+	"parts": [
+		{
+			"id": "turret",
+			"name": "turret",
+			"type": "ywzj_vehicle:weapon",
+			"structure_bone": "turret",
+			"seat_offset": [-0.5, 2.5, 0.375],
+			"rot_info": {
+				"x_rot_speed": 1.5,
+				"y_rot_speed": 1.5,
+				"x_rot_max": 8,
+				"x_rot_min": -20
+			},
+			"optical_sight_offset": [0.5, 0, 1.5],
+			"operator_view_offset": [0, 1.5, 0],
+			"optical_sight_type": "optical_scope",
+			"zoom_max": 8,
+			"weapons": [
+				"tank_assault:cannon_75mm",
+				{
+					"id": "ywzj_vehicle:gun_7.62mm",
+					"part_unit_id": "turret_machine_gun",
+					"secondary": true
+				}
+			]
+		},
+		{
+			"id": "turret_machine_gun",
+			"name": "turret_machine_gun",
+			"type": "ywzj_vehicle:weapon",
+			"structure_bone": "turret_machine_gun",
+			"is_seat": false,
+			"base": "turret",
+			"rot_info": {
+				"x_rot_speed": 1.5,
+				"y_rot_speed": 0,
+				"x_rot_max": 8,
+				"x_rot_min": -20
+			}
+		},
+		{
+			"id": "seat2",
+			"name": "seat2",
+			"type": "ywzj_vehicle:generic",
+			"structure_bone": "gunner_seat",
+			"seat_offset": [0.5, 2.5, 0.375],
+			"owner_view_offset": [0, 3.5, 0.375]
+		},
+		{
+			"id": "seat3",
+			"name": "seat3",
+			"type": "ywzj_vehicle:generic",
+			"structure_bone": "commander_seat",
+			"seat_offset": [0, 2.5, 0.375],
+			"owner_view_offset": [0, 3.5, 0.375]
+		},
+		{
+			"id": "seat4",
+			"name": "seat4",
+			"type": "ywzj_vehicle:generic",
+			"seat_offset": [0.5, 1.5, 0],
+			"owner_view_offset": [0.5, 1.5, 2]
+		},
+		{
+			"id": "seat5",
+			"name": "seat5",
+			"type": "ywzj_vehicle:generic",
+			"seat_offset": [-0.5, 1.5, 0],
+			"owner_view_offset": [-0.5, 1.5, 2]
+		}
+	]
+}

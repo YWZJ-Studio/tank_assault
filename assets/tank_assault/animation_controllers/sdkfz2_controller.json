@@ -1,0 +1,40 @@
+{
+	"name": "sdkfz2_controller",
+	"script": "tank_assault:sdkfz2",
+	"parameters": {},
+	"graph": {
+		"type": "merge",
+		"inputs": [
+			{
+				"type": "bone_binding",
+				"special_bindings": [
+					{
+						"bones": [
+							"Left_qudonglun", "Left_wai_fuzhonglun_1", "Left_wai_fuzhonglun_2",
+							"Left_nei_fuzhonglun_1", "Left_nei_fuzhonglun_2", "Left_nei_fuzhonglun_3"
+						],
+						"source": "left_wheel_rotation",
+						"axis": "x",
+						"param": -0.375
+					},
+					{
+						"bones": [
+							"Right_qudonglun", "Right_wai_fuzhonglun_1", "Right_wai_fuzhonglun_2",
+							"Right_nei_fuzhonglun_1", "Right_nei_fuzhonglun_2", "Right_nei_fuzhonglun_3"
+						],
+						"source": "right_wheel_rotation",
+						"axis": "x",
+						"param": -0.375
+					}
+				]
+			},
+			{
+				"type": "track_animation"
+			},
+			{
+				"type": "script",
+				"function": "updateBones"
+			}
+		]
+	}
+}

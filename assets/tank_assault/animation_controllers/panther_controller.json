@@ -1,0 +1,63 @@
+{
+	"name": "panther_controller",
+	"script": "tank_assault:panther",
+	"parameters": {},
+	"event_animations": {
+		"turret_fire": ["barrel_shoot"]
+	},
+	"graph": {
+		"type": "merge",
+		"inputs": [
+			{
+				"type": "additive",
+				"base": {
+					"type": "bone_binding",
+					"special_bindings": [
+						{
+							"bones": [
+								"Left_nei_fuzhonglun_1", "Left_nei_fuzhonglun_2", "Left_nei_fuzhonglun_3", "Left_nei_fuzhonglun_4", 
+								"Left_wai_fuzhonglun_1", "Left_wai_fuzhonglun_2", "Left_wai_fuzhonglun_3", "Left_wai_fuzhonglun_4",
+								"Left_qudonglun", "Left_youdaolun"
+							],
+							"source": "left_wheel_rotation",
+							"axis": "x",
+							"param": -0.375
+						},
+						{
+							"bones": [
+								"Right_nei_fuzhonglun_1", "Right_nei_fuzhonglun_2", "Right_nei_fuzhonglun_3", "Right_nei_fuzhonglun_4",
+								"Right_wai_fuzhonglun_5", "Right_wai_fuzhonglun_6", "Right_wai_fuzhonglun_7", "Right_wai_fuzhonglun_8",
+								"Right_qudonglun", "Right_youdaolun"
+							],
+							"source": "right_wheel_rotation",
+							"axis": "x",
+							"param": -0.375
+						}
+					],
+					"part_bindings": [
+						{
+							"bone": "paota",
+							"part": "turret",
+							"rotation_type": "y",
+							"axis": "y",
+							"invert": true
+						},
+						{
+							"bone": "paoguan",
+							"part": "turret",
+							"rotation_type": "x",
+							"axis": "x",
+							"invert": true
+						}
+					]
+				},
+				"add": {
+					"type": "event_animation"
+				}
+			},
+			{
+				"type": "track_animation"
+			}
+		]
+	}
+}

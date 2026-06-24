@@ -1,0 +1,90 @@
+{
+	"cannon_85mm_shot": {
+		"sounds": [
+			"tank_assault:weapon/artillery/cannon_85mm_zis_c53_shot_01",
+			"tank_assault:weapon/artillery/cannon_85mm_zis_c53_shot_02",
+			"tank_assault:weapon/artillery/cannon_85mm_zis_c53_shot_03"
+		],
+		"subtitle": "tank_assault.sounds.cannon_85mm_shot"
+	},
+	"cannon_88mm_shot": {
+		"sounds": [
+			"tank_assault:weapon/artillery/cannon_88mm_pak43_shot_01",
+			"tank_assault:weapon/artillery/cannon_88mm_pak43_shot_02",
+			"tank_assault:weapon/artillery/cannon_88mm_pak43_shot_03"
+		],
+		"subtitle": "tank_assault.sounds.cannon_88mm_shot"
+	},
+	"cannon_75mm_shot": {
+		"sounds": [
+			"tank_assault:weapon/artillery/cannon_75mm_kwk40_shot_01",
+			"tank_assault:weapon/artillery/cannon_75mm_kwk40_shot_02",
+			"tank_assault:weapon/artillery/cannon_75mm_kwk40_shot_03"
+		],
+		"subtitle": "tank_assault.sounds.cannon_75mm_shot"
+	},
+	"tiger_engine_start": {
+		"sounds": ["tank_assault:vehicle/tiger/tiger_engine_start"],
+		"subtitle": "tank_assault.sounds.tiger_engine_start"
+	},
+	"tiger_engine_idle": {
+		"sounds": ["tank_assault:vehicle/tiger/tiger_engine_idle"],
+		"subtitle": "tank_assault.sounds.tiger_engine_idle"
+	},
+	"tiger_engine_run": {
+		"sounds": ["tank_assault:vehicle/tiger/tiger_engine_run"],
+		"subtitle": "tank_assault.sounds.tiger_engine_run"
+	},
+	"tiger_engine_track": {
+		"sounds": ["tank_assault:vehicle/tiger/tiger_engine_track"],
+		"subtitle": "tank_assault.sounds.tiger_engine_track"
+	},
+	"panther_engine_start": {
+		"sounds": ["tank_assault:vehicle/panther/panther_engine_start"],
+		"subtitle": "tank_assault.sounds.panther_engine_start"
+	},
+	"panther_engine_idle": {
+		"sounds": ["tank_assault:vehicle/panther/panther_engine_idle"],
+		"subtitle": "tank_assault.sounds.panther_engine_idle"
+	},
+	"panther_engine_run": {
+		"sounds": ["tank_assault:vehicle/panther/panther_engine_run"],
+		"subtitle": "tank_assault.sounds.panther_engine_run"
+	},
+	"panther_engine_track": {
+		"sounds": ["tank_assault:vehicle/panther/panther_engine_track"],
+		"subtitle": "tank_assault.sounds.panther_engine_track"
+	},
+	"t34_engine_start": {
+		"sounds": ["tank_assault:vehicle/t34/t34_engine_start"],
+		"subtitle": "tank_assault.sounds.t34_engine_start"
+	},
+	"t34_engine_idle": {
+		"sounds": ["tank_assault:vehicle/t34/t34_engine_idle"],
+		"subtitle": "tank_assault.sounds.t34_engine_idle"
+	},
+	"t34_engine_run": {
+		"sounds": ["tank_assault:vehicle/t34/t34_engine_run"],
+		"subtitle": "tank_assault.sounds.t34_engine_run"
+	},
+	"t34_engine_track": {
+		"sounds": ["tank_assault:vehicle/t34/t34_engine_track"],
+		"subtitle": "tank_assault.sounds.t34_engine_track"
+	},
+	"panther3_engine_start": {
+		"sounds": ["tank_assault:vehicle/panther3/panther3_engine_start"],
+		"subtitle": "tank_assault.sounds.panther3_engine_start"
+	},
+	"panther3_engine_idle": {
+		"sounds": ["tank_assault:vehicle/panther3/panther3_engine_idle"],
+		"subtitle": "tank_assault.sounds.panther3_engine_idle"
+	},
+	"panther3_engine_run": {
+		"sounds": ["tank_assault:vehicle/panther3/panther3_engine_run"],
+		"subtitle": "tank_assault.sounds.panther3_engine_run"
+	},
+	"panther3_engine_track": {
+		"sounds": ["tank_assault:vehicle/panther3/panther3_engine_track"],
+		"subtitle": "tank_assault.sounds.panther3_engine_track"
+	}
+}

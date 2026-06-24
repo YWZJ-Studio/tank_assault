@@ -1,0 +1,55 @@
+{
+	"name": "t3485_controller",
+	"script": "tank_assault:t3485",
+	"parameters": {},
+	"event_animations": {
+		"turret_fire": ["barrel_shoot"]
+	},
+	"graph": {
+		"type": "merge",
+		"inputs": [
+			{
+				"type": "additive",
+				"base": {
+					"type": "bone_binding",
+					"special_bindings": [
+						{
+							"bones": ["Left_fuzhonglun_1", "Left_fuzhonglun_2", "Left_fuzhonglun_3", "Left_fuzhonglun_4", "Left_fuzhonglun_5", "Left_youdaolun", "Left_qudonglun"],
+							"source": "left_wheel_rotation",
+							"axis": "x",
+							"param": -0.375
+						},
+						{
+							"bones": ["Right_fuzhonglun_1", "Right_fuzhonglun_2", "Right_fuzhonglun_3", "Right_fuzhonglun_4", "Right_fuzhonglun_5", "Right_youdaolun", "Right_qudonglun"],
+							"source": "right_wheel_rotation",
+							"axis": "x",
+							"param": -0.375
+						}
+					],
+					"part_bindings": [
+						{
+							"bone": "paotai",
+							"part": "turret",
+							"rotation_type": "y",
+							"axis": "y",
+							"invert": true
+						},
+						{
+							"bone": "paoguan",
+							"part": "turret",
+							"rotation_type": "x",
+							"axis": "x",
+							"invert": true
+						}
+					]
+				},
+				"add": {
+					"type": "event_animation"
+				}
+			},
+			{
+				"type": "track_animation"
+			}
+		]
+	}
+}

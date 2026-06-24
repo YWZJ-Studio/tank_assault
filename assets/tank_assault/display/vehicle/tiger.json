@@ -1,0 +1,22 @@
+{
+	"type": "ywzj_vehicle:tracked_vehicle",
+	"model": "tank_assault:entity/tiger",
+	"texture": "tank_assault:textures/entity/tiger.png",
+	"slot_texture": "tank_assault:textures/slot/tiger.png",
+	"animations": "tank_assault:entity/tiger.animation",
+	"animation_controller": "tank_assault:tiger_controller",
+	"track_config": {
+		"left_track": "tread_l_move",
+		"right_track": "tread_r_move",
+		"module_length": 0.25,
+		"track_width": 3.0
+	},
+	"sounds": {
+		"engine_start": "tank_assault:tiger_engine_start",
+		"engine_idle": "tank_assault:tiger_engine_idle",
+		"engine_run": "tank_assault:tiger_engine_run",
+		"track_run": "tank_assault:tiger_engine_track"
+	},
+	"description": "",
+	"tab_index": 1
+}

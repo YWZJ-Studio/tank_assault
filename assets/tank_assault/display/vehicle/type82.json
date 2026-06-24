@@ -1,0 +1,15 @@
+{
+	"type": "ywzj_vehicle:wheeled_vehicle",
+	"model": "tank_assault:entity/type82",
+	"texture": "tank_assault:textures/entity/type82_2.png",
+	"slot_texture": "tank_assault:textures/slot/type82.png",
+	"animations": "tank_assault:entity/type82.animation",
+	"animation_controller": "tank_assault:type82_controller",
+	"sounds": {
+		"engine_start": "ywzj_vehicle:lav150_engine_start",
+		"engine_idle": "ywzj_vehicle:truck_engine_idle",
+		"engine_run": "ywzj_vehicle:truck_engine_run"
+	},
+	"tab_index": 100,
+	"tab_index": 4
+}
