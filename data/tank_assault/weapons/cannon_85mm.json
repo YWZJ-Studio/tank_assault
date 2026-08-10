@@ -1,6 +1,6 @@
 {
 	"type": "ywzj_vehicle:cannon",
-	"name": "85mm Cannon",
+	"name": "85 mm Cannon",
 	"caliber": 85,
 	"damage": 360,
 	"headshot_multiplier": 1,

@@ -1,0 +1,63 @@
+{
+	"name": "t26b_controller",
+	"script": "tank_assault:t26b",
+	"parameters": {},
+	"event_animations": {
+		"turret_fire": ["barrel_shoot"]
+	},
+	"graph": {
+		"type": "merge",
+		"inputs": [
+			{
+				"type": "additive",
+				"base": {
+					"type": "bone_binding",
+					"special_bindings": [
+						{
+							"bones": [
+								"UpRoadWheel3", "UpRoadWheel4", "UpRoadWheel6", "UpRoadWheel10",
+								"RoadWhell13", "RoadWhell9", "RoadWhell17", "RoadWhell15", "RoadWhell22", "RoadWhell23", "RoadWhell20", "RoadWhell21",
+								"leidrwhell4", "leidrwhell5"
+							],
+							"source": "left_wheel_rotation",
+							"axis": "z",
+							"param": -0.375
+						},
+						{
+							"bones": [
+								"UpRoadWheel7", "UpRoadWheel8", "UpRoadWheel9", "UpRoadWheel11",
+								"RoadWhell11", "RoadWhell10", "RoadWhell14", "RoadWhell12", "RoadWhell7", "RoadWhell8", "RoadWhell5", "RoadWhell6",
+								"leidrwhell2", "leidrwhell3"
+							],
+							"source": "right_wheel_rotation",
+							"axis": "z",
+							"param": 0.375
+						}
+					],
+					"part_bindings": [
+						{
+							"bone": "turrret",
+							"part": "turret",
+							"rotation_type": "y",
+							"axis": "y",
+							"invert": true
+						},
+						{
+							"bone": "gunshield",
+							"part": "turret",
+							"rotation_type": "x",
+							"axis": "x",
+							"invert": true
+						}
+					]
+				},
+				"add": {
+					"type": "event_animation"
+				}
+			},
+			{
+				"type": "track_animation"
+			}
+		]
+	}
+}

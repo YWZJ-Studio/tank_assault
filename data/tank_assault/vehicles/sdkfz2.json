@@ -1,19 +1,19 @@
 {
-	"type": "ywzj_vehicle:tracked_vehicle",
-	"attributes": {
-		"brake_acceleration": 0.025,
-		"forward_acceleration": 0.01,
-		"backward_acceleration": 0.01,
-		"max_speed_forward": 0.8,
-		"max_speed_backward": 0.2,
-		"turn_acceleration": 1,
-		"max_turn": 2,
-		"track_size": 0.1
+    "type": "ywzj_vehicle:tracked_vehicle",
+    "attributes": {
+        "brake_acceleration": 0.04,
+        "forward_acceleration": 0.03,
+        "backward_acceleration": 0.015,
+        "max_speed_forward": 0.7,
+        "max_speed_backward": 0.3,
+        "turn_acceleration": 1.8,
+        "max_turn": 2.8,
+        "track_size": 0.1
 	},
 	"max_health": 200,
 	"defense_stats": {
-		"damage_threshold": 50,
-		"impact_multiplier": 0.1
+		"damage_threshold": 1.5,
+		"impact_multiplier": 1.2
     },
 	"view_info": {
 		"third_person_center_offset": [0, 3, 0],
@@ -30,7 +30,7 @@
 		"engine_particle_offsets": []
 	},
 	"physics_info": {
-		"can_destroy_block": true
+		"can_destroy_block": false
 	},
 	"structure_model": "tank_assault:vehicle/sdkfz2",
 	"parts": [
@@ -38,7 +38,7 @@
 			"id": "driver_seat",
 			"name": "driver_seat",
 			"type": "ywzj_vehicle:generic",
-			"seat_offset": [0, 1.3, 0.5],
+			"seat_offset": [0, 1.5, 0.3],
 			"owner_view_offset": [0, 1.3, 0.5],
 			"passenger_pose": {
 				"left_arm_rot_x": -1.5,
@@ -49,7 +49,7 @@
 			"id": "passenger_seat",
 			"name": "passenger_seat",
 			"type": "ywzj_vehicle:generic",
-			"seat_offset": [0, 1.5, -0.7],
+			"seat_offset": [0, 1.7, -0.5],
 			"seat_rot": 180
 		}
 	]

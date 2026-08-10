@@ -1,8 +1,8 @@
 {
 	"type": "ywzj_vehicle:cannon",
-	"name": "75mm Cannon",
+	"name": "75 mm Cannon",
 	"caliber": 75,
-	"damage": 650,
+	"damage": 590,
 	"headshot_multiplier": 1,
 	"recoil": 0.5,
 	"inaccuracy": 0.05,

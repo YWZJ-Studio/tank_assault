@@ -1,0 +1,22 @@
+{
+	"type": "ywzj_vehicle:tracked_vehicle",
+	"model": "tank_assault:entity/kv1mod1942",
+	"texture": "tank_assault:textures/entity/kv1mod1942.png",
+	"slot_texture": "tank_assault:textures/slot/kv1mod1942.png",
+	"animations": "tank_assault:entity/kv1mod1942.animation",
+	"animation_controller": "tank_assault:kv1mod1942_controller",
+	"track_config": {
+		"left_track": "tread_l_move",
+		"right_track": "tread_r_move",
+		"module_length": 0.25,
+		"track_width": 3.0
+	},
+	"sounds": {
+		"engine_start": "tank_assault:panther_engine_start",
+		"engine_idle": "tank_assault:panther_engine_idle",
+		"engine_run": "tank_assault:panther_engine_run",
+		"track_run": "tank_assault:panther_engine_track"
+	},
+	"description": "",
+	"tab_index": 104
+}

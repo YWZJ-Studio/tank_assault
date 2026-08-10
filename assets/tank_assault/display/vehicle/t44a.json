@@ -1,0 +1,22 @@
+{
+	"type": "ywzj_vehicle:tracked_vehicle",
+	"model": "tank_assault:entity/t44a",
+	"texture": "tank_assault:textures/entity/t44a.png",
+	"slot_texture": "tank_assault:textures/slot/t44a.png",
+	"animations": "tank_assault:entity/t44a.animation",
+	"animation_controller": "tank_assault:t44a_controller",
+	"track_config": {
+		"left_track": "tread_l_move",
+		"right_track": "tread_r_move",
+		"module_length": 0.25,
+		"track_width": 3.0
+	},
+	"sounds": {
+		"engine_start": "tank_assault:t34_engine_start",
+		"engine_idle": "tank_assault:t34_engine_idle",
+		"engine_run": "tank_assault:t34_engine_run",
+		"track_run": "tank_assault:t34_engine_track"
+	},
+	"description": "",
+	"tab_index": 105
+}

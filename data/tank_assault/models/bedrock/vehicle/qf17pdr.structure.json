@@ -1,0 +1,74 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 21,
+				"visible_bounds_height": 6.5,
+				"visible_bounds_offset": [0, 2.75, 0]
+			},
+			"bones": [
+				{
+					"name": "vehicle_body",
+					"pivot": [0, 13.1504, 59.6946],
+					"cubes": [
+						{
+							"origin": [-16.575, 0, -13.425],
+							"size": [32.8, 12.925, 28.95],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16]},
+								"east": {"uv": [0, 0], "uv_size": [16, 16]},
+								"south": {"uv": [0, 0], "uv_size": [16, 16]},
+								"west": {"uv": [0, 0], "uv_size": [16, 16]},
+								"up": {"uv": [16, 16], "uv_size": [-16, -16], "uv_rotation": 180},
+								"down": {"uv": [16, 16], "uv_size": [-16, -16], "uv_rotation": 180}
+							}
+						}
+					]
+				},
+				{
+					"name": "qf17pdr",
+					"pivot": [0, 9.3, -2.8],
+					"cubes": [
+						{
+							"origin": [-21.55, -0.45, 1.15],
+							"size": [42.625, 29.45, 5.9],
+							"pivot": [-0.2375, 20.775, 4.8125],
+							"rotation": [40, 0, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16]},
+								"east": {"uv": [0, 0], "uv_size": [16, 16]},
+								"south": {"uv": [0, 0], "uv_size": [16, 16]},
+								"west": {"uv": [0, 0], "uv_size": [16, 16]},
+								"up": {"uv": [16, 16], "uv_size": [-16, -16], "uv_rotation": 180},
+								"down": {"uv": [16, 16], "uv_size": [-16, -16], "uv_rotation": 180}
+							}
+						}
+					]
+				},
+				{
+					"name": "qf17pdr_barrel",
+					"parent": "qf17pdr",
+					"pivot": [-7.2091, 12.94, 4.6492],
+					"cubes": [
+						{
+							"origin": [-1.525, 15.1, -15.925],
+							"size": [2.8, 2.6, 72.85],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16]},
+								"east": {"uv": [0, 0], "uv_size": [16, 16]},
+								"south": {"uv": [0, 0], "uv_size": [16, 16]},
+								"west": {"uv": [0, 0], "uv_size": [16, 16]},
+								"up": {"uv": [16, 16], "uv_size": [-16, -16], "uv_rotation": 180},
+								"down": {"uv": [16, 16], "uv_size": [-16, -16], "uv_rotation": 180}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

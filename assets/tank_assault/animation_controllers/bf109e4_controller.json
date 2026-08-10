@@ -1,0 +1,40 @@
+{
+	"name": "bf109e4_controller",
+	"script": "tank_assault:bf109e4",
+	"parameters": {},
+	"switchable_animations": {
+		"landing_gear": {
+			"part_id": "landing_gear",
+			"animation": "landing_gear"
+		},
+		"door": {
+			"part_id": "door",
+			"animation": "door"
+		},
+		"fuel_tank": {
+			"part_id": "fuel_tank",
+			"animation": "fuel_tank"
+		}
+	},
+	"graph": {
+		"type": "merge",
+		"inputs": [
+			{
+				"type": "switchable_animation",
+				"ref": "landing_gear"
+			},
+			{
+				"type": "switchable_animation",
+				"ref": "door"
+			},
+			{
+				"type": "switchable_animation",
+				"ref": "fuel_tank"
+			},
+			{
+				"type": "script",
+				"function": "updateBones"
+			}
+		]
+	}
+}

@@ -23,6 +23,96 @@
 		],
 		"subtitle": "tank_assault.sounds.cannon_75mm_shot"
 	},
+	"cannon_45mm_20k_shot": {
+		"sounds": [
+			"tank_assault:weapon/artillery/cannon_45mm_20k_shot_01",
+			"tank_assault:weapon/artillery/cannon_45mm_20k_shot_02",
+			"tank_assault:weapon/artillery/cannon_45mm_20k_shot_03"
+		],
+		"subtitle": "tank_assault.sounds.cannon_45mm_20k_shot"
+	},
+	"cannon_76mm_qf17_shot": {
+		"sounds": [
+			"tank_assault:weapon/artillery/cannon_76mm_qf17_shot_01",
+			"tank_assault:weapon/artillery/cannon_76mm_qf17_shot_02",
+			"tank_assault:weapon/artillery/cannon_76mm_qf17_shot_03"
+		],
+		"subtitle": "tank_assault.sounds.cannon_76mm_qf17_shot"
+	},
+	"cannon_76mm_zis5_shot": {
+		"sounds": [
+			"tank_assault:weapon/artillery/cannon_76mm_zis5_shot_01",
+			"tank_assault:weapon/artillery/cannon_76mm_zis5_shot_02",
+			"tank_assault:weapon/artillery/cannon_76mm_zis5_shot_03"
+		],
+		"subtitle": "tank_assault.sounds.cannon_76mm_zis5_shot"
+	},
+	"cannon_380mm_stum_shot": {
+		"sounds": [
+			"tank_assault:weapon/artillery/cannon_380mm_stum_shot_01",
+			"tank_assault:weapon/artillery/cannon_380mm_stum_shot_02",
+			"tank_assault:weapon/artillery/cannon_380mm_stum_shot_03"
+		],
+		"subtitle": "tank_assault.sounds.cannon_380mm_stum_shot"
+	},
+	"cannon_75mm_qf75_shot": {
+		"sounds": [
+			"tank_assault:weapon/artillery/cannon_75mm_qf75_shot_01",
+			"tank_assault:weapon/artillery/cannon_75mm_qf75_shot_02",
+			"tank_assault:weapon/artillery/cannon_75mm_qf75_shot_03"
+		],
+		"subtitle": "tank_assault.sounds.cannon_75mm_qf75_shot"
+	},
+	"auto_cannon_mgffm_shot": {
+		"sounds": [
+			"tank_assault:weapon/auto_cannon/mgff_far-001",
+			"tank_assault:weapon/auto_cannon/mgff_far-002",
+			"tank_assault:weapon/auto_cannon/mgff_far-003",
+			"tank_assault:weapon/auto_cannon/mgff_far-004",
+			"tank_assault:weapon/auto_cannon/mgff_far-005"
+		],
+		"subtitle": "tank_assault.sounds.auto_cannon_mgffm_shot"
+	},
+	"gun_mg17_shot": {
+		"sounds": [
+			"tank_assault:weapon/gun/mg17_close-001",
+			"tank_assault:weapon/gun/mg17_close-002",
+			"tank_assault:weapon/gun/mg17_close-003",
+			"tank_assault:weapon/gun/mg17_close-004",
+			"tank_assault:weapon/gun/mg17_close-005"
+		],
+		"subtitle": "tank_assault.sounds.gun_mg17_shot"
+	},
+	"gun_mg42_shot": {
+		"sounds": [
+			"tank_assault:weapon/gun/mg42_close-001",
+			"tank_assault:weapon/gun/mg42_close-002",
+			"tank_assault:weapon/gun/mg42_close-003",
+			"tank_assault:weapon/gun/mg42_close-004",
+			"tank_assault:weapon/gun/mg42_close-005"
+		],
+		"subtitle": "tank_assault.sounds.gun_mg42_shot"
+	},
+	"gun_dt29_shot": {
+		"sounds": [
+			"tank_assault:weapon/gun/dt29_close-001",
+			"tank_assault:weapon/gun/dt29_close-002",
+			"tank_assault:weapon/gun/dt29_close-003",
+			"tank_assault:weapon/gun/dt29_close-004",
+			"tank_assault:weapon/gun/dt29_close-005"
+		],
+		"subtitle": "tank_assault.sounds.gun_dT29_shot"
+	},
+	 "gun_besa_shot": {
+		"sounds": [
+			"tank_assault:weapon/gun/besa_close-001",
+			"tank_assault:weapon/gun/besa_close-002",
+			"tank_assault:weapon/gun/besa_close-003",
+			"tank_assault:weapon/gun/besa_close-004",
+			"tank_assault:weapon/gun/besa_close-005"
+		],
+		"subtitle": "tank_assault.sounds.gun_besa_shot"
+	},
 	"tiger_engine_start": {
 		"sounds": ["tank_assault:vehicle/tiger/tiger_engine_start"],
 		"subtitle": "tank_assault.sounds.tiger_engine_start"

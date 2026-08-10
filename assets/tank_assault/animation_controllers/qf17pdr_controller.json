@@ -1,0 +1,38 @@
+{
+	"name": "qf17pdr_controller",
+	"script": "ashvehicle_ywzj:qf17pdr",
+	"parameters": {},
+	"event_animations": {
+		"qf17pdr_fire": ["fire_recoil"]
+	},
+	"graph": {
+		"type": "merge",
+		"inputs": [
+			{
+				"type": "additive",
+				"base": {
+					"type": "bone_binding",
+					"part_bindings": [
+						{
+							"bone": "gun_carriage_recoil",
+							"part": "qf17pdr",
+							"rotation_type": "y",
+							"axis": "y",
+							"invert": true
+						},
+						{
+							"bone": "gun_carriage_recoil",
+							"part": "qf17pdr",
+							"rotation_type": "x",
+							"axis": "x",
+							"invert": true
+						}
+					]
+				},
+				"add": {
+					"type": "event_animation"
+				}
+			}
+		]
+	}
+}

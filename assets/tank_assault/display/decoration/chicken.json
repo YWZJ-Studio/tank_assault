@@ -1,0 +1,6 @@
+{
+    "model": "tank_assault:decoration/chicken",
+    "texture": "tank_assault:textures/decoration/chicken.png",
+    "animations": "tank_assault:decoration/chicken.animation",
+    "description": "叮咚鸡"
+}

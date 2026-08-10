@@ -1,0 +1,17 @@
+{
+    "type": "ywzj_vehicle:cannon",
+    "name": "7.62x54 mm DT 29",
+    "caliber": 7.92,
+    "tracer_r": 0.2,
+    "tracer_g": 0.7,
+    "tracer_b": 0.1,
+    "damage": 10,
+    "velocity": 22,
+    "headshot_multiplier": 2.5,
+    "shoot_interval": 96,
+    "max_capacity": 63,
+    "reload": {
+        "time": 90,
+        "ammo": "ywzj_vehicle:ammo_machine_gun"
+    }
+}

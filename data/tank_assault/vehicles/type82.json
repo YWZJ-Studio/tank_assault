@@ -1,17 +1,17 @@
 {
-	"type": "ywzj_vehicle:wheeled_vehicle",
-	"attributes": {
-		"brake_force": 0.025,
-		"forward_force": 0.02,
-		"backward_force": 0.01,
-		"max_speed_forward": 0.8,
-		"max_speed_backward": 0.2,
-		"turn_step": 0.3,
-		"max_turn": 1
+    "type": "ywzj_vehicle:wheeled_vehicle",
+    "attributes": {
+        "brake_force": 0.025,
+        "forward_force": 0.025,
+        "backward_force": 0.02,
+        "max_speed_forward": 0.8,
+        "max_speed_backward": 0.3,
+        "turn_step": 0.3,
+        "max_turn": 1.0
 	},
-	"max_health": 150,
+	"max_health": 100,
 	"defense_stats": {
-		"damage_threshold": 5,
+		"damage_threshold": 4,
 		"impact_multiplier": 1.5
     },
 	"view_info": {

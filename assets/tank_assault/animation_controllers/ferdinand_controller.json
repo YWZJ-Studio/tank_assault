@@ -1,0 +1,87 @@
+{
+	"name": "ferdinand_controller",
+	"script": "tank_assault:ferdinand",
+	"parameters": {},
+	"switchable_animations": {
+		"gun_carriage": {
+			"part_id": "gun_carriage",
+			"animation": "gun_carriage"
+		}
+	},
+	"event_animations": {
+		"turret_fire": ["barrel_shoot"]
+	},
+	"graph": {
+		"type": "merge",
+		"inputs": [
+			{
+				"type": "additive",
+				"base": {
+					"type": "bone_binding",
+					"special_bindings": [
+						{
+							"bones": [
+								"Left_qudonglun", "Left_youdaolun",
+								"Left_tu_fuzhonglun_1", "Left_tu_fuzhonglun_2", "Left_tu_fuzhonglun_3",
+								"Left_ao_fuzhonglun_1", "Left_ao_fuzhonglun_2", "Left_ao_fuzhonglun_3"
+							],
+							"source": "left_wheel_rotation",
+							"axis": "x",
+							"param": -0.375
+						},
+						{
+							"bones": [
+								"Right_qudonglun", "Right_youdaolun",
+								"Right_tu_fuzhonglun_1", "Right_tu_fuzhonglun_2", "Right_tu_fuzhonglun_3",
+								"Right_ao_fuzhonglun_1", "Right_ao_fuzhonglun_2", "Right_ao_fuzhonglun_3"
+							],
+							"source": "right_wheel_rotation",
+							"axis": "x",
+							"param": -0.375
+						}
+					],
+					"part_bindings": [
+						{
+							"bone": "paoguan",
+							"part": "turret",
+							"rotation_type": "y",
+							"axis": "y",
+							"invert": true
+						},
+						{
+							"bone": "paoguan",
+							"part": "turret",
+							"rotation_type": "x",
+							"axis": "x",
+							"invert": true
+						},
+						{
+							"bone": "hangxiangjiqiang",
+							"part": "hull_machine_gun",
+							"rotation_type": "y",
+							"axis": "y",
+							"invert": true
+						},
+						{
+							"bone": "hangxiangjiqiang",
+							"part": "hull_machine_gun",
+							"rotation_type": "x",
+							"axis": "x",
+							"invert": true
+						}
+					]
+				},
+				"add": {
+					"type": "event_animation"
+				}
+			},
+			{
+				"type": "track_animation"
+			},
+			{
+				"type": "switchable_animation",
+				"ref": "gun_carriage"
+			}
+		]
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"type": "ywzj_vehicle:generic",
+	"model": "tank_assault:entity/qf17pdr",
+	"texture": "tank_assault:textures/entity/qf17pdr.png",
+	"slot_texture": "tank_assault:textures/slot/qf17pdr.png",
+	"animations": "tank_assault:entity/qf17pdr.animation",
+	"animation_controller": "tank_assault:qf17pdr_controller",
+	"tab_index": 3000
+}

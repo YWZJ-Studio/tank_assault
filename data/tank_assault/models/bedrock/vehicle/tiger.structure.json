@@ -7,8 +7,8 @@
 				"texture_width": 16,
 				"texture_height": 16,
 				"visible_bounds_width": 13,
-				"visible_bounds_height": 4.5,
-				"visible_bounds_offset": [0, 1.75, 0]
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 1.5, 0]
 			},
 			"bones": [
 				{
@@ -131,6 +131,29 @@
 								"west": {"uv": [0, 0], "uv_size": [69.825, 14.275]},
 								"up": {"uv": [56.7, 69.825], "uv_size": [-56.7, -69.825]},
 								"down": {"uv": [56.7, 69.825], "uv_size": [-56.7, -69.825]}
+							}
+						}
+					]
+				},
+				{
+					"name": "mg",
+					"pivot": [10.0589, 26.7538, 35.2921]
+				},
+				{
+					"name": "mg_barrel",
+					"parent": "mg",
+					"pivot": [10.0589, 26.7538, 35.2921],
+					"cubes": [
+						{
+							"origin": [9.6294, 26.3242, 35.0896],
+							"size": [0.8591, 0.8592, 5.67],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1, 1]},
+								"east": {"uv": [0, 0], "uv_size": [1, 1]},
+								"south": {"uv": [0, 0], "uv_size": [1, 1]},
+								"west": {"uv": [0, 0], "uv_size": [1, 1]},
+								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
+								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
 							}
 						}
 					]

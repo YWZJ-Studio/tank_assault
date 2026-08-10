@@ -6956,8 +6956,13 @@
 					]
 				},
 				{
-					"name": "hanxiangjiqiang",
+					"name": "hangxiangjiqiang_stru",
 					"parent": "Panther.G_x1.2x0.75",
+					"pivot": [-9.54086, 28.019, -48.18659]
+				},
+				{
+					"name": "hanxiangjiqiang",
+					"parent": "hangxiangjiqiang_stru",
 					"pivot": [-9.54086, 28.019, -48.18659],
 					"cubes": [
 						{

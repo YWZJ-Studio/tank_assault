@@ -2774,8 +2774,13 @@
 					]
 				},
 				{
-					"name": "hanxiangjiqiang",
+					"name": "hanxiangjiqiang_stru",
 					"parent": "Tiger.I.E_x2x0.9x1.2",
+					"pivot": [-10.05894, 26.75381, -39.60265]
+				},
+				{
+					"name": "hanxiangjiqiang",
+					"parent": "hanxiangjiqiang_stru",
 					"pivot": [-10.05894, 26.75381, -39.60265],
 					"cubes": [
 						{

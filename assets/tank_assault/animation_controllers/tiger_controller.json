@@ -48,7 +48,21 @@
 							"rotation_type": "x",
 							"axis": "x",
 							"invert": true
-						}
+						},
+					    {
+						    "bone": "hanxiangjiqiang_stru",
+						    "part": "mg",
+						    "rotation_type": "y",
+						    "axis": "y",
+						    "invert": true
+					    },
+					    {
+						    "bone": "hanxiangjiqiang",
+						    "part": "mg",
+						    "rotation_type": "x",
+						    "axis": "x",
+						    "invert": true
+					    }						
 					]
 				},
 				"add": {
@@ -57,6 +71,10 @@
 			},
 			{
 				"type": "track_animation"
+			},
+			{
+				"type": "script",
+				"function": "updateBones"
 			}
 		]
 	}

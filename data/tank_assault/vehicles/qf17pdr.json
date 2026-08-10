@@ -1,0 +1,46 @@
+{
+	"type": "ywzj_vehicle:generic",
+	"attributes": {},
+	"max_health": 500,
+	"view_info": {
+		"third_person_center_offset": [0, 2, 0],
+		"third_person_distance": 5,
+		"sound_distance": 5
+	},
+	"energy_info": {
+		"energy_capacity": 1,
+		"energy_consumption_per_tick": 0.00001
+	},
+	"structure_model": "tank_assault:vehicle/qf17pdr",
+	"parts": [
+		{
+			"id": "qf17pdr",
+			"name": "qf17pdr",
+			"type": "ywzj_vehicle:weapon",
+			"structure_bone": "qf17pdr",
+			"seat_offset": [0.5, 1.8, -0.5],
+			"passenger_pose": {
+				"left_leg_rot_x": 0,
+				"right_leg_rot_x": 0
+			},
+			"fire_control_sensor_type": "ccip",
+			"crosshair_style": "cross",
+			"rot_info": {
+				"x_rot_speed": 1,
+				"y_rot_speed": 1,
+				"x_rot_max": 8,
+				"x_rot_min": -14,
+				"y_rot_max": 15,
+				"y_rot_min": -15,
+				"need_power": false
+			},
+			"optical_sight_offset": [0, 1, 1],
+			"operator_view_offset": [0, 2, 1],
+			"optical_sight_type": "operator",
+			"zoom_max": 4,
+			"weapons": [
+				"tank_assault:cannon_76mm_qf17pdr"
+			]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "ywzj_vehicle:cannon",
+    "name": "20 mm MG FF/M",
+    "caliber": 20,
+    "damage": 45,
+    "velocity": 16,
+    "recoil": 0.05,
+    "headshot_multiplier": 1.5,
+    "shoot_interval": 100,
+    "max_capacity": 120,
+    "reload": {
+        "time": 120,
+        "ammo": "ywzj_vehicle:ammo_auto_cannon"
+    },
+    "explosion": {
+        "explode": true,
+        "damage": 20,
+        "radius": 0.3,
+        "destroy_block": true
+    }
+}

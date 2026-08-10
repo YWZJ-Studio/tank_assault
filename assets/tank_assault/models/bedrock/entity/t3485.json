@@ -2584,8 +2584,13 @@
 					]
 				},
 				{
-					"name": "hanxiangjiqiang",
+					"name": "hanxiangjiqiang_stru",
 					"parent": "t34-85_x2x1.2x0.75",
+					"pivot": [9.6741, 19.9734, 27.432]
+				},
+				{
+					"name": "hanxiangjiqiang",
+					"parent": "hanxiangjiqiang_stru",
 					"pivot": [-9.67408, 19.9734, -28.23197],
 					"cubes": [
 						{

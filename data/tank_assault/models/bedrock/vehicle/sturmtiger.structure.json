@@ -1,0 +1,93 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 13,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "turret",
+					"pivot": [4.05, 37.023, 23.8342]
+				},
+				{
+					"name": "turret_barrel",
+					"parent": "turret",
+					"pivot": [4.05, 37.023, 23.8342],
+					"cubes": [
+						{
+							"origin": [-2.1, 29.95, 33.3],
+							"size": [12.1, 12, 10.95],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [3.825, 4.725]},
+								"east": {"uv": [0, 0], "uv_size": [58.825, 4.725]},
+								"south": {"uv": [0, 0], "uv_size": [4.4, 4.725]},
+								"west": {"uv": [0, 0], "uv_size": [58.825, 4.725]},
+								"up": {"uv": [4.4, 58.825], "uv_size": [-4.4, -58.825]},
+								"down": {"uv": [4.4, 58.825], "uv_size": [-4.4, -58.825]}
+							}
+						}
+					]
+				},
+				{
+					"name": "mg",
+					"pivot": [19.035, 31.758, 31.7317]
+				},
+				{
+					"name": "mg_barrel",
+					"parent": "mg",
+					"pivot": [19.035, 31.758, 31.7317],
+					"cubes": [
+						{
+							"origin": [18.55, 31.325, 33.65],
+							"size": [1, 1, 5.675],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [3.825, 4.725]},
+								"east": {"uv": [0, 0], "uv_size": [58.825, 4.725]},
+								"south": {"uv": [0, 0], "uv_size": [4.4, 4.725]},
+								"west": {"uv": [0, 0], "uv_size": [58.825, 4.725]},
+								"up": {"uv": [4.4, 58.825], "uv_size": [-4.4, -58.825]},
+								"down": {"uv": [4.4, 58.825], "uv_size": [-4.4, -58.825]}
+							}
+						}
+					]
+				},
+				{
+					"name": "vehicle_body",
+					"pivot": [0, 0, -13.625],
+					"cubes": [
+						{
+							"origin": [-29.925, 0, -52.775],
+							"size": [59.7, 30.8, 100.375],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [57.7, 27.4]},
+								"east": {"uv": [0, 0], "uv_size": [114.575, 27.4]},
+								"south": {"uv": [0, 0], "uv_size": [57.7, 27.4]},
+								"west": {"uv": [0, 0], "uv_size": [114.575, 27.4]},
+								"up": {"uv": [57.7, 114.575], "uv_size": [-57.7, -114.575], "uv_rotation": 180},
+								"down": {"uv": [57.7, 114.575], "uv_size": [-57.7, -114.575], "uv_rotation": 180}
+							}
+						},
+						{
+							"origin": [-28.175, 31, -22.3],
+							"size": [56.15, 15.025, 55.875],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [57.7, 27.4]},
+								"east": {"uv": [0, 0], "uv_size": [114.575, 27.4]},
+								"south": {"uv": [0, 0], "uv_size": [57.7, 27.4]},
+								"west": {"uv": [0, 0], "uv_size": [114.575, 27.4]},
+								"up": {"uv": [57.7, 114.575], "uv_size": [-57.7, -114.575], "uv_rotation": 180},
+								"down": {"uv": [57.7, 114.575], "uv_size": [-57.7, -114.575], "uv_rotation": 180}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

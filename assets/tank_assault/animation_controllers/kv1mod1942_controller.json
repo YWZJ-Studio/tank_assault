@@ -1,0 +1,63 @@
+{
+	"name": "bt7v_controller",
+	"script": "tank_assault:bt7v",
+	"parameters": {},
+	"event_animations": {
+		"turret_fire": ["barrel_shoot"]
+	},
+	"graph": {
+		"type": "merge",
+		"inputs": [
+			{
+				"type": "additive",
+				"base": {
+					"type": "bone_binding",
+					"special_bindings": [
+						{
+							"bones": [
+								"left_rbwheel_front", "left_drwheel",
+								"left_rdwheel_1", "left_rdwheel_2", "left_rdwheel_3", "left_rdwheel_4", "left_rdwheel_5", "left_rdwheel_6",
+								"left_rbwheel_1", "left_rbwheel_2", "left_rbwheel_3"
+							],
+							"source": "left_wheel_rotation",
+							"axis": "x",
+							"param": -0.375
+						},
+						{
+							"bones": [
+								"right_rbwheel_front", "right_drwheel",
+								"right_rdwheel_1", "right_rdwheel_2", "right_rdwheel_3", "right_rdwheel_4", "right_rdwheel_5", "right_rdwheel_6",
+								"right_rbwheel_1", "right_rbwheel_2", "right_rbwheel_3"
+							],
+							"source": "right_wheel_rotation",
+							"axis": "x",
+							"param": -0.375
+						}
+					],
+					"part_bindings": [
+						{
+							"bone": "turret",
+							"part": "turret",
+							"rotation_type": "y",
+							"axis": "y",
+							"invert": true
+						},
+						{
+							"bone": "gunshield",
+							"part": "turret",
+							"rotation_type": "x",
+							"axis": "x",
+							"invert": true
+						}
+					]
+				},
+				"add": {
+					"type": "event_animation"
+				}
+			},
+			{
+				"type": "track_animation"
+			}
+		]
+	}
+}
