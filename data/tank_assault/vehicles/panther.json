@@ -34,6 +34,8 @@
 			"id": "turret",
 			"name": "turret",
 			"type": "ywzj_vehicle:weapon",
+			"max_health": 400,
+			"render_bone": "paota",
 			"structure_bone": "turret",
 			"seat_offset": [0.5, 2.5, -0.5],
 			"rot_info": {
@@ -83,6 +85,8 @@
             "id": "seat3",
             "name": "seat3",
             "type": "ywzj_vehicle:weapon",
+			"max_health": 75,
+			"render_bone": "hanxiangjiqiang_stru",
             "structure_bone": "mg",
             "seat_offset": [-0.58, 1.75, 2.0],
             "rot_info": {

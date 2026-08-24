@@ -50,15 +50,15 @@
 							"invert": true
 						},
 					    {
-						    "bone": "hanxiangjiqiang_stru",
-						    "part": "mg",
+						    "bone": "hangxiangjiqiang_stru",
+						    "part": "seat3",
 						    "rotation_type": "y",
 						    "axis": "y",
 						    "invert": true
 					    },
 					    {
 						    "bone": "hanxiangjiqiang",
-						    "part": "mg",
+						    "part": "seat3",
 						    "rotation_type": "x",
 						    "axis": "x",
 						    "invert": true

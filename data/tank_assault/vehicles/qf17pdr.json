@@ -17,6 +17,8 @@
 			"id": "qf17pdr",
 			"name": "qf17pdr",
 			"type": "ywzj_vehicle:weapon",
+			"max_health": 150,
+			"render_bone": "gun_carriage_recoil",
 			"structure_bone": "qf17pdr",
 			"seat_offset": [0.5, 1.8, -0.5],
 			"passenger_pose": {

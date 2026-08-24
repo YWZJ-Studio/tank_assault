@@ -50,6 +50,20 @@
 							"rotation_type": "x",
 							"axis": "x",
 							"invert": true
+						},
+						{
+							"bone": "mg_codriver2",
+							"part": "seat3",
+							"rotation_type": "y",
+							"axis": "y",
+							"invert": true
+						},
+						{
+							"bone": "mg_codriver",
+							"part": "seat3",
+							"rotation_type": "x",
+							"axis": "x",
+							"invert": true
 						}
 					]
 				},

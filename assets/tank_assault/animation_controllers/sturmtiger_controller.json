@@ -57,14 +57,14 @@
 						},
 						{
 							"bone": "hangxiangjiqiang",
-							"part": "hull_machine_gun",
+							"part": "seat3",
 							"rotation_type": "y",
 							"axis": "y",
 							"invert": true
 						},
 						{
 							"bone": "hangxiangjiqiang",
-							"part": "hull_machine_gun",
+							"part": "seat3",
 							"rotation_type": "x",
 							"axis": "x",
 							"invert": true

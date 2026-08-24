@@ -8982,8 +8982,13 @@
 					]
 				},
 				{
-					"name": "mg_codriver",
+					"name": "mg_codriver2",
 					"parent": "chassis",
+					"pivot": [4.8, 20.8, -35.175]
+				},
+				{
+					"name": "mg_codriver",
+					"parent": "mg_codriver2",
 					"pivot": [4.8, 20.8, -35.175],
 					"cubes": [
 						{
