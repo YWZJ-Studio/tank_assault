@@ -49,7 +49,7 @@
 			"optical_sight_type": "optical_scope",
 			"zoom_max": 8,
 			"weapons": [
-				"tank_assault:cannon_45mm_20k",
+				["tank_assault:cannon_45mm_20k_br_240", "tank_assault:cannon_45mm_20k_uo_240"],
 				{
 					"id": "tank_assault:gun_dt29",
 					"part_unit_id": "turret_machine_gun",

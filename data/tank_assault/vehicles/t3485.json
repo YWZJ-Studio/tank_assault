@@ -49,7 +49,7 @@
 			"optical_sight_type": "optical_scope",
 			"zoom_max": 8,
 			"weapons": [
-				"tank_assault:cannon_85mm",
+				["tank_assault:cannon_85mm_ubr_365", "tank_assault:cannon_85mm_uo_365"],
 				{
 					"id": "tank_assault:gun_dt29",
 					"part_unit_id": "turret_machine_gun",
@@ -125,18 +125,27 @@
             ]
         },
 		{
+			"id": "seat4",
+			"name": "seat4",
+			"type": "ywzj_vehicle:generic",			
+			"seat_offset": [0.28, 1.42, 1.6],
+			"owner_view_offset": [0.28, 1.42, 1.6]
+		},		
+		{
 			"id": "seat5",
 			"name": "seat5",
 			"type": "ywzj_vehicle:generic",
-			"seat_offset": [-0.5, 1.5, 0],
-			"owner_view_offset": [-0.5, 1.5, 2]
+			"structure_bone": "gunner_seat",			
+			"seat_offset": [-0.35, 3.0, -0.1],
+			"owner_view_offset": [-0.35, 3.0, -0.1]
 		},
 		{
 			"id": "seat6",
 			"name": "seat6",
 			"type": "ywzj_vehicle:generic",
-			"seat_offset": [-0.5, 1.5, 0],
-			"owner_view_offset": [-0.5, 1.5, 2]
+			"structure_bone": "gunner_seat",			
+			"seat_offset": [0.4, 3.2, -0.3],
+			"owner_view_offset": [0.4, 3.2, -0.3]
 		}				
 	]
 }

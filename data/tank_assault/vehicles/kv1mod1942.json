@@ -36,7 +36,7 @@
 			"max_health": 300,
 			"render_bone": "turret",
 			"structure_bone": "turret",
-			"seat_offset": [0.0, 1.5, 0.0],
+			"seat_offset": [0.0, 2.0, 0.0],
 			"rot_info": {
 				"x_rot_speed": 1.0,
 				"y_rot_speed": 1.5,
@@ -49,7 +49,7 @@
 			"optical_sight_type": "optical_scope",
 			"zoom_max": 8,
 			"weapons": [
-				"tank_assault:cannon_76mm_zis5",
+				["tank_assault:cannon_76mm_ubr_354a", "tank_assault:cannon_76mm_uof_354"],
 				{
 					"id": "tank_assault:gun_dt29",
 					"part_unit_id": "turret_machine_gun",
@@ -109,17 +109,16 @@
 			"id": "seat4",
 			"name": "seat4",
 			"type": "ywzj_vehicle:generic",
-			"structure_bone": "commander_seat",
-			"seat_offset": [0, 2.0, 0.375],
-			"owner_view_offset": [0, 3.5, 0.375]
+			"seat_offset": [0.5, 1.7, 1.8],
+			"owner_view_offset": [0.5, 1.7, 1.8]
 		},
 		{
 			"id": "seat5",
 			"name": "seat5",
 			"type": "ywzj_vehicle:generic",
-			"structure_bone": "commander_seat",
-			"seat_offset": [0, 2.0, 0.375],
-			"owner_view_offset": [0, 3.5, 0.375]
+			"structure_bone": "turret",
+			"seat_offset": [0, 3.0, -0.13],
+			"owner_view_offset": [0, 3.0, -0.13]
 		}
 	]
 }

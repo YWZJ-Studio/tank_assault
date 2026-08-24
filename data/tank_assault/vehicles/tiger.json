@@ -49,12 +49,16 @@
 			"optical_sight_type": "optical_scope",
 			"zoom_max": 8,
 			"weapons": [
-				"tank_assault:cannon_88mm",
+				["tank_assault:cannon_88mm_pzgr_39", "tank_assault:cannon_88mm_pzgr_40"],
 				{
 					"id": "tank_assault:gun_mg34",
 					"part_unit_id": "turret_machine_gun",
 					"secondary": true
-				}
+				},
+                {
+                    "id": "ywzj_vehicle:launcher_smoke_grenade",
+                    "part_unit_id": "turret_smoke_grenade"
+                }				
 			]
 		},
 		{
@@ -72,13 +76,24 @@
 				"need_power":false
 			}
 		},
+        {
+            "id": "turret_smoke_grenade",
+            "name": "turret_smoke_grenade",
+            "type": "ywzj_vehicle:weapon",
+            "structure_bone": "turret_smoke_grenade",
+            "is_seat": false,
+            "rot_info": {
+                "x_rot_speed": 0,
+                "y_rot_speed": 0
+            }
+        },		
 		{
 			"id": "seat2",
 			"name": "seat2",
 			"type": "ywzj_vehicle:generic",
 			"structure_bone": "gunner_seat",
-			"seat_offset": [0.5, 2.0, 0.375],
-			"owner_view_offset": [0, 3.5, 0.375]
+			"seat_offset": [0.5, 2.2, 0.375],
+			"owner_view_offset": [0, 2.2, 0.375]
 		},
         {
             "id": "seat3",
@@ -87,7 +102,7 @@
 			"max_health": 100,
 			"render_bone": "hanxiangjiqiang_stru",
             "structure_bone": "mg",
-            "seat_offset": [-0.62, 1.6, 1.8],
+            "seat_offset": [-0.62, 1.7, 1.8],
             "rot_info": {
                 "x_rot_speed": 15,
                 "y_rot_speed": 25,
@@ -97,8 +112,8 @@
 				"y_rot_min": -5,
 				"need_power":false				
             },
-            "optical_sight_offset": [-0.62, 1.6, 1.8],
-            "operator_view_offset": [-0.62, 1.6, 1.8],
+            "optical_sight_offset": [-0.62, 1.7, 1.8],
+            "operator_view_offset": [-0.62, 1.7, 1.8],
             "optical_sight_type": "none",
             "with_stabilizer": true,
             "with_thermal_imager": true,
@@ -111,23 +126,31 @@
 			"id": "seat4",
 			"name": "seat4",
 			"type": "ywzj_vehicle:generic",
-			"seat_offset": [0.5, 1.5, 0],
-			"owner_view_offset": [0.5, 1.5, 2]
+			"seat_offset": [-1.0, 2.2, 1.51],
+			"owner_view_offset": [-1.0, 2.2, 1.51]
 		},
 		{
 			"id": "seat5",
 			"name": "seat5",
 			"type": "ywzj_vehicle:generic",
-			"seat_offset": [-0.5, 1.5, 0],
-			"owner_view_offset": [-0.5, 1.5, 2]
+			"seat_offset": [1.0, 2.2, 1.51],
+			"owner_view_offset": [1.0,2.2, 1.51]
 		},
 		{
 			"id": "seat6",
 			"name": "seat6",
 			"type": "ywzj_vehicle:generic",
 			"structure_bone": "commander_seat",
-			"seat_offset": [0.5578125, 3.4390625, -0.65625],
-			"owner_view_offset": [0.5578125, 3.4390625, -0.65625]
-		}
+			"seat_offset": [-0.72, 3.4, -0.34],
+			"owner_view_offset": [-0.72, 3.4, -0.34]
+		},
+		{
+			"id": "seat7",
+			"name": "seat7",
+			"type": "ywzj_vehicle:generic",
+			"structure_bone": "commander_seat",
+			"seat_offset": [0.55, 3.43, -0.65],
+			"owner_view_offset": [0.55, 3.43, -0.65]
+		}		
 	]
 }

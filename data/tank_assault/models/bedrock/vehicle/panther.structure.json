@@ -42,6 +42,25 @@
 					]
 				},
 				{
+					"name": "turret_smoke_grenade_barrel",
+					"parent": "turret",
+					"pivot": [10.9864, 46.4653, -12.5231],
+					"cubes": [
+						{
+							"origin": [8.8485, 46.3528, -14.661],
+							"size": [4.2758, 0.2286, 4.2758],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1, 1]},
+								"east": {"uv": [0, 0], "uv_size": [1, 1]},
+								"south": {"uv": [0, 0], "uv_size": [1, 1]},
+								"west": {"uv": [0, 0], "uv_size": [1, 1]},
+								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
+								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
+							}
+						}
+					]
+				},
+				{
 					"name": "turret_barrel",
 					"parent": "turret",
 					"pivot": [0.4114, 39.944, 14.9545],

@@ -1,8 +1,8 @@
 {
 	"type": "ywzj_vehicle:cannon",
-	"name": "88 mm Cannon",
+	"name": "88 mm Cannon PzGr39/43",
 	"caliber": 88,
-	"damage": 550,
+	"damage": 950,
 	"headshot_multiplier": 1,
 	"recoil": 0.5,
 	"inaccuracy": 0.05,
@@ -14,8 +14,8 @@
 	},
 	"explosion": {
 		"explode": true,
-		"damage": 350,
-		"radius": 4,
+		"damage": 250,
+		"radius": 1.5,
 		"destroy_block": true
 	}
 }

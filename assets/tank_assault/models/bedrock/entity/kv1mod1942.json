@@ -5343,7 +5343,7 @@
 				{
 					"name": "door_driver",
 					"parent": "rootx0.8",
-					"pivot": [8, 26.8, -33.2],
+					"pivot": [8, 27.19844, -32.00078],
 					"cubes": [
 						{
 							"origin": [7.6, 26.4, -30.4],

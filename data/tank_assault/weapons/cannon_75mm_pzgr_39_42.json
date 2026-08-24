@@ -1,8 +1,8 @@
 {
 	"type": "ywzj_vehicle:cannon",
-	"name": "75 mm Cannon",
+	"name": "75 mm Cannon PzGr39/42",
 	"caliber": 75,
-	"damage": 590,
+	"damage": 660,
 	"headshot_multiplier": 1,
 	"recoil": 0.5,
 	"inaccuracy": 0.05,
@@ -14,8 +14,8 @@
 	},
 	"explosion": {
 		"explode": true,
-		"damage": 250,
-		"radius": 4,
+		"damage": 180,
+		"radius": 1.5,
 		"destroy_block": true
 	}
 }

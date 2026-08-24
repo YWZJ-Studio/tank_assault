@@ -55,7 +55,11 @@
 			},
 			{
 				"type": "track_animation"
-			}
+			},
+			{
+				"type": "script",
+				"function": "updateBones"
+			}			
 		]
 	}
 }

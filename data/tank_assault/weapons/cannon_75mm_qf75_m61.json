@@ -1,21 +1,21 @@
 {
 	"type": "ywzj_vehicle:cannon",
-	"name": "Ordnance QF 75 mm",
+	"name": "Ordnance QF 75 mm M61",
 	"caliber": 75,
-	"damage": 320,
+	"damage": 480,
 	"headshot_multiplier": 1,
 	"recoil": 0.5,
 	"inaccuracy": 0.05,
 	"shoot_interval": 400,
 	"max_capacity": 1,
 	"reload": {
-		"time": 220,
+		"time": 180,
 		"ammo": "ywzj_vehicle:ammo_artillery"
 	},
 	"explosion": {
 		"explode": true,
-		"damage": 250,
-		"radius": 4,
+		"damage": 150,
+		"radius": 1.5,
 		"destroy_block": true
 	}
 }

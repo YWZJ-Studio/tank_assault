@@ -11,7 +11,7 @@
     "shoot_interval": 62,
     "max_capacity": 150,
     "reload": {
-        "time": 80,
+        "time": 100,
         "ammo": "ywzj_vehicle:ammo_machine_gun"
     }
 }

@@ -50,12 +50,16 @@
 			"optical_sight_type": "optical_scope",
 			"zoom_max": 8,
 			"weapons": [
-				"tank_assault:cannon_75mm",
+				["tank_assault:cannon_75mm_pzgr_39_42", "tank_assault:cannon_75mm_sprgr_42"],
 				{
 					"id": "tank_assault:gun_mg34",
 					"part_unit_id": "turret_machine_gun",
 					"secondary": true
-				}
+				},
+                {
+                    "id": "ywzj_vehicle:launcher_smoke_grenade",
+                    "part_unit_id": "turret_smoke_grenade"
+                }				
 			]
 		},
 		{
@@ -73,6 +77,17 @@
 				"need_power":false
 			}
 		},
+        {
+            "id": "turret_smoke_grenade",
+            "name": "turret_smoke_grenade",
+            "type": "ywzj_vehicle:weapon",
+            "structure_bone": "turret_smoke_grenade",
+            "is_seat": false,
+            "rot_info": {
+                "x_rot_speed": 0,
+                "y_rot_speed": 0
+            }
+        },				
 		{
 			"id": "seat2",
 			"name": "seat2",
@@ -88,7 +103,7 @@
 			"max_health": 75,
 			"render_bone": "hanxiangjiqiang_stru",
             "structure_bone": "mg",
-            "seat_offset": [-0.58, 1.75, 2.0],
+            "seat_offset": [-0.58, 1.8, 2.0],
             "rot_info": {
                 "x_rot_speed": 15,
                 "y_rot_speed": 25,
@@ -98,8 +113,8 @@
 				"y_rot_min": -5,
 				"need_power":false				
             },
-            "optical_sight_offset": [-0.58, 1.75, 2.0],
-            "operator_view_offset": [-0.58, 1.75, 2.0],
+            "optical_sight_offset": [-0.58, 1.8, 2.0],
+            "operator_view_offset": [-0.58, 1.8, 2.0],
             "optical_sight_type": "none",
             "with_stabilizer": true,
             "with_thermal_imager": true,
@@ -112,15 +127,15 @@
 			"id": "seat4",
 			"name": "seat4",
 			"type": "ywzj_vehicle:generic",
-			"seat_offset": [0.5, 1.5, 0],
-			"owner_view_offset": [0.5, 1.5, 2]
+			"seat_offset": [-0.6, 2.2, 1.60],
+			"owner_view_offset": [-0.9, 2.2, 1.60]
 		},
 		{
 			"id": "seat5",
 			"name": "seat5",
 			"type": "ywzj_vehicle:generic",
-			"seat_offset": [-0.5, 1.5, 0],
-			"owner_view_offset": [-0.5, 1.5, 2]
+			"seat_offset": [0.6, 2.2, 1.60],
+			"owner_view_offset": [0.9, 2.2, 1.60]
 		},
 		{
 			"id": "seat6",

@@ -1,22 +1,21 @@
 {
 	"type": "ywzj_vehicle:cannon",
-	"name": "38 cm RW61",
-	"caliber": 380,
-	"damage": 1200,
-	"velocity": 4,
+	"name": "85 mm Cannon UO-365",
+	"caliber": 85,
+	"damage": 220,
 	"headshot_multiplier": 1,
 	"recoil": 0.5,
 	"inaccuracy": 0.05,
-	"shoot_interval": 400,
+	"shoot_interval": 300,
 	"max_capacity": 1,
 	"reload": {
-		"time": 800,
+		"time": 220,
 		"ammo": "ywzj_vehicle:ammo_artillery"
 	},
 	"explosion": {
 		"explode": true,
-		"damage": 2300,
-		"radius": 28,
+		"damage": 490,
+		"radius": 9,
 		"destroy_block": true
 	}
 }

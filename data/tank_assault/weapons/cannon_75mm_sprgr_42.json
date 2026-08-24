@@ -1,21 +1,21 @@
 {
 	"type": "ywzj_vehicle:cannon",
-	"name": "45 mm 20-K Cannon T26B",
-	"caliber": 45,
-	"damage": 220,
+	"name": "75 mm Cannon Sprgr42",
+	"caliber": 75,
+	"damage": 280,
 	"headshot_multiplier": 1,
 	"recoil": 0.5,
 	"inaccuracy": 0.05,
-	"shoot_interval": 300,
+	"shoot_interval": 400,
 	"max_capacity": 1,
 	"reload": {
-		"time": 120,
+		"time": 180,
 		"ammo": "ywzj_vehicle:ammo_artillery"
 	},
 	"explosion": {
 		"explode": true,
-		"damage": 80,
-		"radius": 2,
+		"damage": 560,
+		"radius": 8,
 		"destroy_block": true
 	}
 }

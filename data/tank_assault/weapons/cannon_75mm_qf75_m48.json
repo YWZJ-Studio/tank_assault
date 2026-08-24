@@ -1,21 +1,21 @@
 {
 	"type": "ywzj_vehicle:cannon",
-	"name": "76.2 mm ZiS-5 Cannon",
-	"caliber": 76,
-	"damage": 340,
+	"name": "Ordnance QF 75 mm M48 HE",
+	"caliber": 75,
+	"damage": 150,
 	"headshot_multiplier": 1,
 	"recoil": 0.5,
 	"inaccuracy": 0.05,
 	"shoot_interval": 400,
 	"max_capacity": 1,
 	"reload": {
-		"time": 140,
+		"time": 180,
 		"ammo": "ywzj_vehicle:ammo_artillery"
 	},
 	"explosion": {
 		"explode": true,
-		"damage": 200,
-		"radius": 4,
+		"damage": 480,
+		"radius": 8,
 		"destroy_block": true
 	}
 }

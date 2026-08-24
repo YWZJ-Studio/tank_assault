@@ -52,7 +52,7 @@
 			"optical_sight_type": "optical_scope",
 			"zoom_max": 8,
 			"weapons": [
-				"tank_assault:cannon_88mm_pak43"
+				["tank_assault:cannon_88mm_pzgr_39_43", "tank_assault:cannon_88mm_sprgr_43"]
 			]
 		},
 		{
@@ -93,29 +93,29 @@
 			"id": "seat4",
 			"name": "seat4",
 			"type": "ywzj_vehicle:generic",
-			"seat_offset": [0.5, 1.5, 0],
-			"owner_view_offset": [0.5, 1.5, 2]
+			"seat_offset": [-0.6, 2.5, 2.1],
+			"owner_view_offset": [-0.6, 2.5, 2.1]
 		},
 		{
 			"id": "seat5",
 			"name": "seat5",
 			"type": "ywzj_vehicle:generic",
-			"seat_offset": [-0.5, 1.5, 0],
-			"owner_view_offset": [-0.5, 1.5, 2]
+			"seat_offset": [0.6, 2.5, 2.1],
+			"owner_view_offset": [0.6, 2.5, 2.1]
 		},
 		{
 			"id": "seat6",
 			"name": "seat6",
 			"type": "ywzj_vehicle:generic",
-			"seat_offset": [-0.5, 1.5, 0],
-			"owner_view_offset": [-0.5, 1.5, 2]
+			"seat_offset": [0.52, 3.8, -2.47],
+			"owner_view_offset": [0.52, 3.8, -2.47]
 		},
 		{
 			"id": "seat7",
 			"name": "seat7",
 			"type": "ywzj_vehicle:generic",
-			"seat_offset": [-0.5, 1.5, 0],
-			"owner_view_offset": [-0.5, 1.5, 2]
+			"seat_offset": [-0.59, 3.8, -1.6],
+			"owner_view_offset": [-0.59, 3.8, -1.6]
 		},		
 		{
 			"id": "gun_carriage",
