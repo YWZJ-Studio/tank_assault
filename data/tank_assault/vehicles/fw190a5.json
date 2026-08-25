@@ -15,16 +15,16 @@
     "z_rot_input_drag_k": 0.15,
     "landing_gear_drag_k": 0.4,
     "turn_rate_by_speed": 0.5,
-    "x_turn_rate": 2.2,
+    "x_turn_rate": 2,
     "y_turn_rate": 2.5,
-    "z_turn_rate": 7.5,
+    "z_turn_rate": 7.7,
     "vortex_offsets": [[4.6140625, 1.88125, 0.2078125], [-4.6140625, 1.88125, 0.2078125]]
   },
   "landing_gear_part_id": "landing_gear",
   "max_health": 250,
   "view_info": {
     "third_person_center_offset": [0, 4, 0],
-    "third_person_distance": 12,
+    "third_person_distance": 10,
     "third_person_center_offset_zoomed": [0, 4, 0],
     "third_person_distance_zoomed": 0,
     "sound_distance": 8
@@ -37,15 +37,16 @@
     "damage_threshold": 10,
     "impact_multiplier": 3
   },
-  "center_offset": [0, 1.765625, 0],
-  "structure_model": "tank_assault:vehicle/bf109e4",
+  "center_offset": [0, 1.8703125, 0],
+  "structure_model": "tank_assault:vehicle/fw190a5",
   "parts": [
     {
       "id": "pilot",
       "name": "pilot",
       "type": "ywzj_vehicle:weapon",
       "structure_bone": "pilot",
-      "seat_offset": [0, 2.3, 0],
+      "firing_mode": "full_salvo",
+      "seat_offset": [0, 2.4, -1.0203125],
       "operator_on_weapon_unit": false,
       "rot_info": {
         "x_rot_speed": 0,
@@ -75,8 +76,14 @@
           "secondary": true
         },
         {
+          "id": "tank_assault:auto_cannon_mg151",
+          "part_unit_id": "mg151",
+          "full_salvo": true
+        },
+        {
           "id": "tank_assault:auto_cannon_mgffm",
-          "part_unit_id": "mgffm"
+          "part_unit_id": "mgffm",
+          "full_salvo": true
         }
       ]
     },
@@ -86,6 +93,20 @@
       "type": "ywzj_vehicle:weapon",
       "structure_bone": "mg17",
       "ammo_capacity": 2000,
+      "is_seat": false,
+      "firing_mode": "salvo",
+      "crosshair_style": "circle",
+      "rot_info": {
+        "x_rot_speed": 0,
+        "y_rot_speed": 0
+      }
+    },
+    {
+      "id": "mg151",
+      "name": "mg151",
+      "type": "ywzj_vehicle:weapon",
+      "structure_bone": "mg151",
+      "ammo_capacity": 120,
       "is_seat": false,
       "firing_mode": "salvo",
       "crosshair_style": "circle",
