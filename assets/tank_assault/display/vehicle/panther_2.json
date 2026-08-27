@@ -9,7 +9,7 @@
 		"left_track": "tread_l_move",
 		"right_track": "tread_r_move",
 		"module_length": 0.25,
-		"track_width": 3.0
+		"track_width": 3
 	},
 	"sounds": {
 		"engine_start": "tank_assault:panther_engine_start",

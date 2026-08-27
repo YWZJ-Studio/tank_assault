@@ -1,5 +1,5 @@
 {
-    "model": "tank_assault:decoration/grass",
-    "texture": "tank_assault:textures/decoration/grass.png",
-    "description": "草"
+	"model": "tank_assault:decoration/grass",
+	"texture": "tank_assault:textures/decoration/grass.png",
+	"description": "草"
 }

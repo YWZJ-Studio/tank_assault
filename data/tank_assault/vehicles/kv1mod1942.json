@@ -1,19 +1,19 @@
 {
-    "type": "ywzj_vehicle:tracked_vehicle",
-    "attributes": {
-        "brake_acceleration": 0.02,
-        "forward_acceleration": 0.008,
-        "backward_acceleration": 0.006,
-        "max_speed_forward": 0.35,
-        "max_speed_backward": 0.14,
-        "turn_acceleration": 0.8,
-        "max_turn": 1.4
+	"type": "ywzj_vehicle:tracked_vehicle",
+	"attributes": {
+		"brake_acceleration": 0.02,
+		"forward_acceleration": 0.008,
+		"backward_acceleration": 0.006,
+		"max_speed_forward": 0.35,
+		"max_speed_backward": 0.14,
+		"turn_acceleration": 0.8,
+		"max_turn": 1.4
 	},
 	"max_health": 900,
 	"defense_stats": {
 		"damage_threshold": 55,
 		"impact_multiplier": 0.8
-    },
+	},
 	"view_info": {
 		"third_person_center_offset": [0, 3, 0],
 		"third_person_distance": 7,
@@ -21,7 +21,7 @@
 	},
 	"energy_info": {
 		"energy_capacity": 1,
-		"energy_consumption_per_tick": 1e-05,
+		"energy_consumption_per_tick": 0.00001,
 		"engine_particle_offsets": [[0.6125, 1.8015625, -1.925], [-0.6125, 1.8015625, -1.925]]
 	},
 	"physics_info": {
@@ -36,13 +36,13 @@
 			"max_health": 300,
 			"render_bone": "turret",
 			"structure_bone": "turret",
-			"seat_offset": [0.0, 2.0, 0.0],
+			"seat_offset": [0, 2, 0],
 			"rot_info": {
-				"x_rot_speed": 1.0,
+				"x_rot_speed": 1,
 				"y_rot_speed": 1.5,
 				"x_rot_max": 7,
 				"x_rot_min": -25,
-				"need_power":false
+				"need_power": false
 			},
 			"optical_sight_offset": [0.5, 0, 1.5],
 			"operator_view_offset": [0, 1.5, 0],
@@ -70,11 +70,11 @@
 			"is_seat": false,
 			"base": "turret",
 			"rot_info": {
-				"x_rot_speed": 1.0,
+				"x_rot_speed": 1,
 				"y_rot_speed": 0,
 				"x_rot_max": 7,
 				"x_rot_min": -25,
-				"need_power":false
+				"need_power": false
 			}
 		},
 		{
@@ -94,7 +94,7 @@
 			"name": "seat2",
 			"type": "ywzj_vehicle:generic",
 			"structure_bone": "gunner_seat",
-			"seat_offset": [0.5, 2.0, 0.375],
+			"seat_offset": [0.5, 2, 0.375],
 			"owner_view_offset": [0, 3.5, 0.375]
 		},
 		{
@@ -102,7 +102,7 @@
 			"name": "seat3",
 			"type": "ywzj_vehicle:generic",
 			"structure_bone": "commander_seat",
-			"seat_offset": [0, 2.0, 0.375],
+			"seat_offset": [0, 2, 0.375],
 			"owner_view_offset": [0, 3.5, 0.375]
 		},
 		{
@@ -117,8 +117,8 @@
 			"name": "seat5",
 			"type": "ywzj_vehicle:generic",
 			"structure_bone": "turret",
-			"seat_offset": [0, 3.0, -0.13],
-			"owner_view_offset": [0, 3.0, -0.13]
+			"seat_offset": [0, 3, -0.13],
+			"owner_view_offset": [0, 3, -0.13]
 		}
 	]
 }

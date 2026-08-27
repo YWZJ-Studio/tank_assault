@@ -14,23 +14,13 @@
 					"type": "bone_binding",
 					"special_bindings": [
 						{
-							"bones": [
-								"idler_wheel_left", "drive_sprocket_wheel_left",
-								"wheel_left_1", "wheel_left_2", "wheel_left_3", "wheel_left_4",
-								"wheel_left_5", "wheel_left_6", "wheel_left_7", "wheel_left_8",
-								"wheel_left_9", "wheel_left_10", "wheel_left_11"
-							],
+							"bones": ["idler_wheel_left", "drive_sprocket_wheel_left", "wheel_left_1", "wheel_left_2", "wheel_left_3", "wheel_left_4", "wheel_left_5", "wheel_left_6", "wheel_left_7", "wheel_left_8", "wheel_left_9", "wheel_left_10", "wheel_left_11"],
 							"source": "left_wheel_rotation",
 							"axis": "x",
 							"param": -0.375
 						},
 						{
-							"bones": [
-								"idler_wheel_right", "drive_sprocket_wheel_right",
-								"wheel_right_1", "wheel_right_2", "wheel_right_3", "wheel_right_4",
-								"wheel_right_5", "wheel_right_6", "wheel_right_7", "wheel_right_8",
-								"wheel_right_9", "wheel_right_10", "wheel_right_11"
-							],
+							"bones": ["idler_wheel_right", "drive_sprocket_wheel_right", "wheel_right_1", "wheel_right_2", "wheel_right_3", "wheel_right_4", "wheel_right_5", "wheel_right_6", "wheel_right_7", "wheel_right_8", "wheel_right_9", "wheel_right_10", "wheel_right_11"],
 							"source": "right_wheel_rotation",
 							"axis": "x",
 							"param": -0.375
@@ -77,7 +67,7 @@
 			{
 				"type": "script",
 				"function": "updateBones"
-			}			
+			}
 		]
 	}
 }

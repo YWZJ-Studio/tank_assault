@@ -40,9 +40,7 @@
 			"operator_view_offset": [0, 2, 1],
 			"optical_sight_type": "operator",
 			"zoom_max": 4,
-			"weapons": [
-				["tank_assault:cannon_75mm_qf75_m61", "tank_assault:cannon_75mm_qf75_m48"]
-			]
+			"weapons": [["tank_assault:cannon_75mm_qf75_m61", "tank_assault:cannon_75mm_qf75_m48"]]
 		}
 	]
 }

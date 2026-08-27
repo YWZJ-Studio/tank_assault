@@ -1,133 +1,133 @@
 {
-  "type": "ywzj_vehicle:fixed_wing_vehicle",
-  "attributes": {
-    "thrust": 0.03,
-    "thrust_k": 1.4,
-    "ceiling": 512,
-    "x_rot_input_step": 0.35,
-    "y_rot_input_step": 0.35,
-    "z_rot_input_step": 0.3,
-    "air_drag_k_min": 0.0025,
-    "air_drag_k_max": 0.007,
-    "lift_to_drag_k": 2.8,
-    "x_rot_input_drag_k": 1.5,
-    "y_rot_input_drag_k": 0.35,
-    "z_rot_input_drag_k": 0.15,
-    "landing_gear_drag_k": 0.4,
-    "turn_rate_by_speed": 0.5,
-    "x_turn_rate": 2.2,
-    "y_turn_rate": 2.5,
-    "z_turn_rate": 7.5,
-    "vortex_offsets": [[4.6140625, 1.88125, 0.2078125], [-4.6140625, 1.88125, 0.2078125]]
-  },
-  "landing_gear_part_id": "landing_gear",
-  "max_health": 250,
-  "view_info": {
-    "third_person_center_offset": [0, 4, 0],
-    "third_person_distance": 12,
-    "third_person_center_offset_zoomed": [0, 4, 0],
-    "third_person_distance_zoomed": 0,
-    "sound_distance": 8
-  },
-  "energy_info": {
-    "energy_capacity": 0.25,
-    "energy_consumption_per_tick": 0.00001
-  },
-  "defense_stats": {
-    "damage_threshold": 10,
-    "impact_multiplier": 3
-  },
-  "center_offset": [0, 1.765625, 0],
-  "structure_model": "tank_assault:vehicle/bf109e4",
-  "parts": [
-    {
-      "id": "pilot",
-      "name": "pilot",
-      "type": "ywzj_vehicle:weapon",
-      "structure_bone": "pilot",
-      "seat_offset": [0, 2.3, 0],
-      "operator_on_weapon_unit": false,
-      "rot_info": {
-        "x_rot_speed": 0,
-        "y_rot_speed": 0,
-        "x_rot_min": 0,
-        "x_rot_max": 0,
-        "y_rot_min": 0,
-        "y_rot_max": 0
-      },
-      "optical_sight_offset": [0, 0, 1],
-      "operator_view_offset": [0, 0, 0],
-      "optical_sight_type": "none",
-      "passenger_pose": {
-        "left_arm_x": 3.7,
-        "right_arm_x": -3.7,
-        "left_arm_rot_x": -45,
-        "right_arm_rot_x": -45,
-        "left_arm_rot_z": 20,
-        "right_arm_rot_z": -20,
-        "left_leg_rot_x": -60,
-        "right_leg_rot_x": -60
-      },
-      "weapons": [
-        {
-          "id": "tank_assault:gun_mg17",
-          "part_unit_id": "mg17",
-          "secondary": true
-        },
-        {
-          "id": "tank_assault:auto_cannon_mgffm",
-          "part_unit_id": "mgffm"
-        }
-      ]
-    },
-    {
-      "id": "mg17",
-      "name": "mg17",
-      "type": "ywzj_vehicle:weapon",
-      "structure_bone": "mg17",
-      "ammo_capacity": 2000,
-      "is_seat": false,
-      "firing_mode": "salvo",
-      "crosshair_style": "circle",
-      "rot_info": {
-        "x_rot_speed": 0,
-        "y_rot_speed": 0
-      }
-    },
-    {
-      "id": "mgffm",
-      "name": "mgffm",
-      "type": "ywzj_vehicle:weapon",
-      "structure_bone": "mgffm",
-      "ammo_capacity": 120,
-      "is_seat": false,
-      "firing_mode": "salvo",
-      "crosshair_style": "circle",
-      "rot_info": {
-        "x_rot_speed": 0,
-        "y_rot_speed": 0
-      }
-    },
-    {
-      "id": "landing_gear",
-      "name": "landing_gear",
-      "type": "ywzj_vehicle:landing_gear",
-      "structure_bone": "landing_gear",
-      "is_seat": false
-    },
-    {
-      "id": "door",
-      "name": "door",
-      "type": "ywzj_vehicle:door",
-      "structure_bone": "door",
-      "is_seat": false
-    },
-    {
-      "id": "fuel_tank",
-      "name": "fuel_tank",
-      "type": "ywzj_vehicle:switchable",
-      "structure_bone": "fuel_tank",
-      "is_seat": false
-    }
-  ]
+	"type": "ywzj_vehicle:fixed_wing_vehicle",
+	"attributes": {
+		"thrust": 0.03,
+		"thrust_k": 1.4,
+		"ceiling": 512,
+		"x_rot_input_step": 0.35,
+		"y_rot_input_step": 0.35,
+		"z_rot_input_step": 0.3,
+		"air_drag_k_min": 0.0025,
+		"air_drag_k_max": 0.007,
+		"lift_to_drag_k": 2.8,
+		"x_rot_input_drag_k": 1.5,
+		"y_rot_input_drag_k": 0.35,
+		"z_rot_input_drag_k": 0.15,
+		"landing_gear_drag_k": 0.4,
+		"turn_rate_by_speed": 0.5,
+		"x_turn_rate": 2.2,
+		"y_turn_rate": 2.5,
+		"z_turn_rate": 7.5,
+		"vortex_offsets": [[4.6140625, 1.88125, 0.2078125], [-4.6140625, 1.88125, 0.2078125]]
+	},
+	"landing_gear_part_id": "landing_gear",
+	"max_health": 250,
+	"view_info": {
+		"third_person_center_offset": [0, 4, 0],
+		"third_person_distance": 12,
+		"third_person_center_offset_zoomed": [0, 4, 0],
+		"third_person_distance_zoomed": 0,
+		"sound_distance": 8
+	},
+	"energy_info": {
+		"energy_capacity": 0.25,
+		"energy_consumption_per_tick": 0.00001
+	},
+	"defense_stats": {
+		"damage_threshold": 10,
+		"impact_multiplier": 3
+	},
+	"center_offset": [0, 1.765625, 0],
+	"structure_model": "tank_assault:vehicle/bf109e4",
+	"parts": [
+		{
+			"id": "pilot",
+			"name": "pilot",
+			"type": "ywzj_vehicle:weapon",
+			"structure_bone": "pilot",
+			"seat_offset": [0, 2.3, 0],
+			"operator_on_weapon_unit": false,
+			"rot_info": {
+				"x_rot_speed": 0,
+				"y_rot_speed": 0,
+				"x_rot_min": 0,
+				"x_rot_max": 0,
+				"y_rot_min": 0,
+				"y_rot_max": 0
+			},
+			"optical_sight_offset": [0, 0, 1],
+			"operator_view_offset": [0, 0, 0],
+			"optical_sight_type": "none",
+			"passenger_pose": {
+				"left_arm_x": 3.7,
+				"right_arm_x": -3.7,
+				"left_arm_rot_x": -45,
+				"right_arm_rot_x": -45,
+				"left_arm_rot_z": 20,
+				"right_arm_rot_z": -20,
+				"left_leg_rot_x": -60,
+				"right_leg_rot_x": -60
+			},
+			"weapons": [
+				{
+					"id": "tank_assault:gun_mg17",
+					"part_unit_id": "mg17",
+					"secondary": true
+				},
+				{
+					"id": "tank_assault:auto_cannon_mgffm",
+					"part_unit_id": "mgffm"
+				}
+			]
+		},
+		{
+			"id": "mg17",
+			"name": "mg17",
+			"type": "ywzj_vehicle:weapon",
+			"structure_bone": "mg17",
+			"ammo_capacity": 2000,
+			"is_seat": false,
+			"firing_mode": "salvo",
+			"crosshair_style": "circle",
+			"rot_info": {
+				"x_rot_speed": 0,
+				"y_rot_speed": 0
+			}
+		},
+		{
+			"id": "mgffm",
+			"name": "mgffm",
+			"type": "ywzj_vehicle:weapon",
+			"structure_bone": "mgffm",
+			"ammo_capacity": 120,
+			"is_seat": false,
+			"firing_mode": "salvo",
+			"crosshair_style": "circle",
+			"rot_info": {
+				"x_rot_speed": 0,
+				"y_rot_speed": 0
+			}
+		},
+		{
+			"id": "landing_gear",
+			"name": "landing_gear",
+			"type": "ywzj_vehicle:landing_gear",
+			"structure_bone": "landing_gear",
+			"is_seat": false
+		},
+		{
+			"id": "door",
+			"name": "door",
+			"type": "ywzj_vehicle:door",
+			"structure_bone": "door",
+			"is_seat": false
+		},
+		{
+			"id": "fuel_tank",
+			"name": "fuel_tank",
+			"type": "ywzj_vehicle:switchable",
+			"structure_bone": "fuel_tank",
+			"is_seat": false
+		}
+	]
 }

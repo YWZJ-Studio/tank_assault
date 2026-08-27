@@ -1,5 +1,5 @@
 {
-    "model": "tank_assault:decoration/millia",
-    "texture": "tank_assault:textures/decoration/millia.png",
-    "description": "米莉亚"
+	"model": "tank_assault:decoration/millia",
+	"texture": "tank_assault:textures/decoration/millia.png",
+	"description": "米莉亚"
 }

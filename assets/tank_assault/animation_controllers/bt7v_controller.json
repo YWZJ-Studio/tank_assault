@@ -14,19 +14,13 @@
 					"type": "bone_binding",
 					"special_bindings": [
 						{
-							"bones": [
-								"Left_youdaolun", "Left_qudonglun",
-								"Left_fuzhonglun_1", "Left_fuzhonglun_2", "Left_fuzhonglun_3", "Left_fuzhonglun_4"
-							],
+							"bones": ["Left_youdaolun", "Left_qudonglun", "Left_fuzhonglun_1", "Left_fuzhonglun_2", "Left_fuzhonglun_3", "Left_fuzhonglun_4"],
 							"source": "left_wheel_rotation",
 							"axis": "x",
 							"param": -0.375
 						},
 						{
-							"bones": [
-								"Right_youdaolun", "Right_qudonglun",
-								"Right_fuzhonglun_1", "Right_fuzhonglun_2", "Right_fuzhonglun_3", "Right_fuzhonglun_4"
-							],
+							"bones": ["Right_youdaolun", "Right_qudonglun", "Right_fuzhonglun_1", "Right_fuzhonglun_2", "Right_fuzhonglun_3", "Right_fuzhonglun_4"],
 							"source": "right_wheel_rotation",
 							"axis": "x",
 							"param": -0.375
@@ -59,7 +53,7 @@
 			{
 				"type": "script",
 				"function": "updateBones"
-			}			
+			}
 		]
 	}
 }

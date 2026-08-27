@@ -1,20 +1,20 @@
 {
-    "type": "ywzj_vehicle:tracked_vehicle",
-    "attributes": {
-        "brake_acceleration": 0.04,
-        "forward_acceleration": 0.03,
-        "backward_acceleration": 0.015,
-        "max_speed_forward": 0.7,
-        "max_speed_backward": 0.3,
-        "turn_acceleration": 1.8,
-        "max_turn": 2.8,
-        "track_size": 0.1
+	"type": "ywzj_vehicle:tracked_vehicle",
+	"attributes": {
+		"brake_acceleration": 0.04,
+		"forward_acceleration": 0.03,
+		"backward_acceleration": 0.015,
+		"max_speed_forward": 0.7,
+		"max_speed_backward": 0.3,
+		"turn_acceleration": 1.8,
+		"max_turn": 2.8,
+		"track_size": 0.1
 	},
 	"max_health": 200,
 	"defense_stats": {
 		"damage_threshold": 1.5,
 		"impact_multiplier": 1.2
-    },
+	},
 	"view_info": {
 		"third_person_center_offset": [0, 3, 0],
 		"third_person_distance": 7,
@@ -26,7 +26,7 @@
 	},
 	"energy_info": {
 		"energy_capacity": 1,
-		"energy_consumption_per_tick": 1e-05,
+		"energy_consumption_per_tick": 0.00001,
 		"engine_particle_offsets": []
 	},
 	"physics_info": {

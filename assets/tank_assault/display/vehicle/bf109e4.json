@@ -1,24 +1,24 @@
 {
-  "type": "ywzj_vehicle:fixed_wing_vehicle",
-  "model": "tank_assault:entity/bf109e4",
-  "texture": "tank_assault:textures/entity/bf109e4.png",
-  "slot_texture": "tank_assault:textures/slot/bf109e4.png",
-  "animations": "tank_assault:entity/bf109e4.animation",
-  "animation_controller": "tank_assault:bf109e4_controller",
-  "special_bone_effects": [
-    {
-      "bone": "glass",
-      "texture": "tank_assault:textures/entity/bf109e4.png",
-      "type": "transparent"
-    }
-  ],
-  "sounds": {
-    "engine_start": "ywzj_vehicle:piston_engine_start",
-    "engine_stop": "ywzj_vehicle:piston_engine_stop",
-    "engine_run": "ywzj_vehicle:piston_engine_run",
-    "engine_thrust": "ywzj_vehicle:piston_engine_thrust",
-    "passby": "ywzj_vehicle:piston_passby"
-  },
-  "description": "",
-  "tab_index": 2000
+	"type": "ywzj_vehicle:fixed_wing_vehicle",
+	"model": "tank_assault:entity/bf109e4",
+	"texture": "tank_assault:textures/entity/bf109e4.png",
+	"slot_texture": "tank_assault:textures/slot/bf109e4.png",
+	"animations": "tank_assault:entity/bf109e4.animation",
+	"animation_controller": "tank_assault:bf109e4_controller",
+	"special_bone_effects": [
+		{
+			"bone": "glass",
+			"texture": "tank_assault:textures/entity/bf109e4.png",
+			"type": "transparent"
+		}
+	],
+	"sounds": {
+		"engine_start": "ywzj_vehicle:piston_engine_start",
+		"engine_stop": "ywzj_vehicle:piston_engine_stop",
+		"engine_run": "ywzj_vehicle:piston_engine_run",
+		"engine_thrust": "ywzj_vehicle:piston_engine_thrust",
+		"passby": "ywzj_vehicle:piston_passby"
+	},
+	"description": "",
+	"tab_index": 2000
 }

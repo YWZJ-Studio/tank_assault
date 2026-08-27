@@ -1,19 +1,19 @@
 {
-    "type": "ywzj_vehicle:wheeled_vehicle",
-    "attributes": {
-        "brake_force": 0.025,
-        "forward_force": 0.025,
-        "backward_force": 0.02,
-        "max_speed_forward": 0.8,
-        "max_speed_backward": 0.3,
-        "turn_step": 0.3,
-        "max_turn": 1.0
+	"type": "ywzj_vehicle:wheeled_vehicle",
+	"attributes": {
+		"brake_force": 0.025,
+		"forward_force": 0.025,
+		"backward_force": 0.02,
+		"max_speed_forward": 0.8,
+		"max_speed_backward": 0.3,
+		"turn_step": 0.3,
+		"max_turn": 1
 	},
 	"max_health": 100,
 	"defense_stats": {
 		"damage_threshold": 4,
 		"impact_multiplier": 1.5
-    },
+	},
 	"view_info": {
 		"third_person_center_offset": [0, 3, 0],
 		"third_person_distance": 7,
@@ -27,7 +27,7 @@
 	},
 	"energy_info": {
 		"energy_capacity": 1,
-		"energy_consumption_per_tick": 1e-05,
+		"energy_consumption_per_tick": 0.00001,
 		"engine_particle_offsets": []
 	},
 	"structure_model": "tank_assault:vehicle/type82",

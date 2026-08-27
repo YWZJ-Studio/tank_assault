@@ -1,20 +1,20 @@
 {
-    "type": "ywzj_vehicle:tracked_vehicle",
-    "attributes": {
-        "brake_acceleration": 0.03,
-        "forward_acceleration": 0.018,
-        "backward_acceleration": 0.02,
-        "max_speed_forward": 0.5,
-        "max_speed_backward": 0.25,
-        "turn_acceleration": 1.2,
-        "max_turn": 2.0,
-        "track_size": 0.1
+	"type": "ywzj_vehicle:tracked_vehicle",
+	"attributes": {
+		"brake_acceleration": 0.03,
+		"forward_acceleration": 0.018,
+		"backward_acceleration": 0.02,
+		"max_speed_forward": 0.5,
+		"max_speed_backward": 0.25,
+		"turn_acceleration": 1.2,
+		"max_turn": 2,
+		"track_size": 0.1
 	},
 	"max_health": 400,
 	"defense_stats": {
 		"damage_threshold": 0.3,
 		"impact_multiplier": 1.4
-    },
+	},
 	"view_info": {
 		"third_person_center_offset": [0, 3, 0],
 		"third_person_distance": 7,
@@ -26,7 +26,7 @@
 	},
 	"energy_info": {
 		"energy_capacity": 1,
-		"energy_consumption_per_tick": 1e-05,
+		"energy_consumption_per_tick": 0.00001,
 		"engine_particle_offsets": [[1.3140625, 0.7984375, 1.590625]]
 	},
 	"physics_info": {
@@ -41,7 +41,7 @@
 			"seat_offset": [0.38, 1.7, 0.2],
 			"owner_view_offset": [0.38, 1.85, 0.2]
 		},
-				{
+		{
 			"id": "seat2",
 			"name": "seat2",
 			"type": "ywzj_vehicle:generic",
@@ -55,7 +55,7 @@
 			"max_health": 100,
 			"render_bone": "xuan",
 			"structure_bone": "turret",
-			"seat_offset": [0.0, 2.4, -0.9],
+			"seat_offset": [0, 2.4, -0.9],
 			"rot_info": {
 				"x_rot_speed": 1.5,
 				"y_rot_speed": 1.5,
@@ -63,15 +63,13 @@
 				"x_rot_min": -20,
 				"y_rot_max": 45,
 				"y_rot_min": -45,
-				"need_power":false
+				"need_power": false
 			},
 			"optical_sight_offset": [0.5, 0, 1.5],
 			"operator_view_offset": [0, 1.5, 0],
 			"optical_sight_type": "optical_scope",
 			"zoom_max": 8,
-			"weapons": [
-				"tank_assault:gun_mg42"
-			]
+			"weapons": ["tank_assault:gun_mg42"]
 		}
 	]
 }

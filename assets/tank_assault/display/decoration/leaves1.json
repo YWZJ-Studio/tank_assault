@@ -1,5 +1,5 @@
 {
-    "model": "tank_assault:decoration/leaves1",
-    "texture": "tank_assault:textures/decoration/leaves1.png",
-    "description": "树叶"
+	"model": "tank_assault:decoration/leaves1",
+	"texture": "tank_assault:textures/decoration/leaves1.png",
+	"description": "树叶"
 }

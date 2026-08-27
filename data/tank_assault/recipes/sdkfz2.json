@@ -1,15 +1,32 @@
 {
-    "type": "ywzj_vehicle:vehicle_printing",
-    "materials": [
-        {"tag": "forge:ingots/iron", "count": 18},
-        {"tag": "forge:ingots/copper", "count": 8},
-        {"item": "minecraft:redstone", "count": 4},
-        {"item": "minecraft:glass_pane", "count": 2},
-        {"item": "minecraft:gold_ingot", "count": 2}
-    ],
-    "result": {
-        "item": "ywzj_vehicle:vehicle_spawn_item",
-        "nbt": {"YwzjVehicleId": "ywzj_vehicle:sdkfz2"}
-    },
-    "printingTime": 140
+	"type": "ywzj_vehicle:vehicle_printing",
+	"materials": [
+		{
+			"tag": "forge:ingots/iron",
+			"count": 18
+		},
+		{
+			"tag": "forge:ingots/copper",
+			"count": 8
+		},
+		{
+			"item": "minecraft:redstone",
+			"count": 4
+		},
+		{
+			"item": "minecraft:glass_pane",
+			"count": 2
+		},
+		{
+			"item": "minecraft:gold_ingot",
+			"count": 2
+		}
+	],
+	"result": {
+		"item": "ywzj_vehicle:vehicle_spawn_item",
+		"nbt": {
+			"YwzjVehicleId": "ywzj_vehicle:sdkfz2"
+		}
+	},
+	"printingTime": 140
 }

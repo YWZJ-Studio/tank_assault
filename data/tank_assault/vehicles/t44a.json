@@ -1,19 +1,19 @@
 {
-    "type": "ywzj_vehicle:tracked_vehicle",
-    "attributes": {
-        "brake_acceleration": 0.028,
-        "forward_acceleration": 0.012,
-        "backward_acceleration": 0.012,
-        "max_speed_forward": 0.55,
-        "max_speed_backward": 0.14,
-        "turn_acceleration": 1.1,
-        "max_turn": 1.9
+	"type": "ywzj_vehicle:tracked_vehicle",
+	"attributes": {
+		"brake_acceleration": 0.028,
+		"forward_acceleration": 0.012,
+		"backward_acceleration": 0.012,
+		"max_speed_forward": 0.55,
+		"max_speed_backward": 0.14,
+		"turn_acceleration": 1.1,
+		"max_turn": 1.9
 	},
 	"max_health": 1350,
 	"defense_stats": {
 		"damage_threshold": 70,
 		"impact_multiplier": 0.8
-    },	
+	},
 	"view_info": {
 		"third_person_center_offset": [0, 3, 0],
 		"third_person_distance": 7,
@@ -21,7 +21,7 @@
 	},
 	"energy_info": {
 		"energy_capacity": 1,
-		"energy_consumption_per_tick": 1e-05,
+		"energy_consumption_per_tick": 0.00001,
 		"engine_particle_offsets": [[0.5, 1, -3.49], [-0.5, 1, -3.49]]
 	},
 	"physics_info": {
@@ -42,7 +42,7 @@
 				"y_rot_speed": 1.5,
 				"x_rot_max": 5,
 				"x_rot_min": -20,
-				"need_power":false
+				"need_power": false
 			},
 			"optical_sight_offset": [0.5, 0.5, 1.5],
 			"operator_view_offset": [0, 1.5, 0],
@@ -69,7 +69,7 @@
 				"y_rot_speed": 0,
 				"x_rot_max": 5,
 				"x_rot_min": -20,
-				"need_power":false
+				"need_power": false
 			}
 		},
 		{

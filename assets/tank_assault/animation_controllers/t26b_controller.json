@@ -14,21 +14,13 @@
 					"type": "bone_binding",
 					"special_bindings": [
 						{
-							"bones": [
-								"UpRoadWheel3", "UpRoadWheel4", "UpRoadWheel6", "UpRoadWheel10",
-								"RoadWhell13", "RoadWhell9", "RoadWhell17", "RoadWhell15", "RoadWhell22", "RoadWhell23", "RoadWhell20", "RoadWhell21",
-								"leidrwhell4", "leidrwhell5"
-							],
+							"bones": ["UpRoadWheel3", "UpRoadWheel4", "UpRoadWheel6", "UpRoadWheel10", "RoadWhell13", "RoadWhell9", "RoadWhell17", "RoadWhell15", "RoadWhell22", "RoadWhell23", "RoadWhell20", "RoadWhell21", "leidrwhell4", "leidrwhell5"],
 							"source": "left_wheel_rotation",
 							"axis": "z",
 							"param": -0.375
 						},
 						{
-							"bones": [
-								"UpRoadWheel7", "UpRoadWheel8", "UpRoadWheel9", "UpRoadWheel11",
-								"RoadWhell11", "RoadWhell10", "RoadWhell14", "RoadWhell12", "RoadWhell7", "RoadWhell8", "RoadWhell5", "RoadWhell6",
-								"leidrwhell2", "leidrwhell3"
-							],
+							"bones": ["UpRoadWheel7", "UpRoadWheel8", "UpRoadWheel9", "UpRoadWheel11", "RoadWhell11", "RoadWhell10", "RoadWhell14", "RoadWhell12", "RoadWhell7", "RoadWhell8", "RoadWhell5", "RoadWhell6", "leidrwhell2", "leidrwhell3"],
 							"source": "right_wheel_rotation",
 							"axis": "z",
 							"param": 0.375
@@ -61,7 +53,7 @@
 			{
 				"type": "script",
 				"function": "updateBones"
-			}			
+			}
 		]
 	}
 }
