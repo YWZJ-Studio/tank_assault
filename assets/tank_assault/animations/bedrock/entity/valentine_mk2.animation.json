@@ -1,0 +1,27 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"tread_l_move": {
+			"animation_length": 1,
+			"bones": {
+				"track_left": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 0, 4]
+					}
+				}
+			}
+		},
+		"tread_r_move": {
+			"animation_length": 1,
+			"bones": {
+				"track_right": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 0, 4]
+					}
+				}
+			}
+		}
+	}
+}

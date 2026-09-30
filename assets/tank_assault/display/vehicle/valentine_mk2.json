@@ -1,0 +1,21 @@
+{
+	"type": "ywzj_vehicle:tracked_vehicle",
+	"model": "tank_assault:entity/valentine_mk2",
+	"texture": "tank_assault:textures/entity/valentine_mk2.png",
+	"slot_texture": "tank_assault:textures/slot/valentine_mk2.png",
+	"animations": "tank_assault:entity/valentine_mk2.animation",
+	"animation_controller": "tank_assault:valentine_mk2_controller",
+	"track_config": {
+		"model": "tank_assault:effect/valentine_mk2_track_link",
+		"texture": "tank_assault:textures/effect/valentine_mk2_track_link.png",
+		"module_length": 0.158
+	},
+	"sounds": {
+		"engine_start": "tank_assault:t34_engine_start",
+		"engine_idle": "tank_assault:t34_engine_idle",
+		"engine_run": "tank_assault:t34_engine_run",
+		"track_run": "tank_assault:t34_engine_track"
+	},
+	"description": "",
+	"tab_index": 201
+}

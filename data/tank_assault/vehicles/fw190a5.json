@@ -15,9 +15,9 @@
 		"z_rot_input_drag_k": 0.2,
 		"landing_gear_drag_k": 0.45,
 		"turn_rate_by_speed": 0.5,
-		"x_turn_rate": 2.1,
-		"y_turn_rate": 3.4,
-		"z_turn_rate": 6.2,
+		"x_turn_rate": 2,
+		"y_turn_rate": 2.3,
+		"z_turn_rate": 8,
 		"vortex_offsets": [[4.6140625, 1.88125, 0.2078125], [-4.6140625, 1.88125, 0.2078125]]
 	},
 	"landing_gear_part_id": "landing_gear",
@@ -59,6 +59,7 @@
 			"optical_sight_offset": [0, 0, 1],
 			"operator_view_offset": [0, 0, 0],
 			"optical_sight_type": "none",
+			"crosshair_style": "circle",
 			"passenger_pose": {
 				"left_arm_x": 3.7,
 				"right_arm_x": -3.7,

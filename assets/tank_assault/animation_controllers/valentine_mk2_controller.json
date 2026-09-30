@@ -1,0 +1,52 @@
+{
+	"name": "valentine_mk2_controller",
+	"parameters": {},
+	"event_animations": {},
+	"graph": {
+		"type": "merge",
+		"inputs": [
+			{
+				"type": "additive",
+				"base": {
+					"type": "bone_binding",
+					"special_bindings": [
+						{
+							"bones": ["rbwheel_3_left", "rbwheel_2_left", "rbwheel_1_left", "wheel_6_left", "wheel_4_left", "wheel_5_left", "wheel_1_left", "wheel_3_left", "wheel_2_left", "d_wheel_left", "rb_wheel_front_left"],
+							"source": "left_wheel_rotation",
+							"axis": "x",
+							"param": -0.375
+						},
+						{
+							"bones": ["rbwheel_3_right", "rbwheel_2_right", "rbwheel_1_right", "wheel_6_right", "wheel_4_right", "wheel_5_right", "wheel_1_right", "wheel_3_right", "wheel_2_right", "d_wheel_right", "rb_wheel_front_right"],
+							"source": "right_wheel_rotation",
+							"axis": "x",
+							"param": -0.375
+						}
+					],
+					"part_bindings": [
+						{
+							"bone": "turret",
+							"part": "turret",
+							"rotation_type": "y",
+							"axis": "y",
+							"invert": true
+						},
+						{
+							"bone": "gunshield",
+							"part": "turret",
+							"rotation_type": "x",
+							"axis": "x",
+							"invert": true
+						}
+					]
+				},
+				"add": {
+					"type": "event_animation"
+				}
+			},
+			{
+				"type": "track_animation"
+			}
+		]
+	}
+}
